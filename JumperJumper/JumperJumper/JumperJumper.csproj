@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{438C845E-CB60-496C-85D5-F924C709C81F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JumperJumper</RootNamespace>
+    <AssemblyName>JumperJumper</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BackgroundSprite\OverwordNinghtBackgroundSprite.cs" />
+    <Compile Include="Block.cs" />
+    <Compile Include="BlockSprite\QuestionBlockSprite.cs" />
+    <Compile Include="Camera.cs" />
+    <Compile Include="CoinSprite.cs" />
+    <Compile Include="DeadGameState.cs" />
+    <Compile Include="DeadTeno.cs" />
+    <Compile Include="ExclaminationBlockState.cs" />
+    <Compile Include="ExplodingBlockState.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="GateSprite.cs" />
+    <Compile Include="GeneralSprite\ExplosionSprite.cs" />
+    <Compile Include="GeneralSprite\GateSprite.cs" />
+    <Compile Include="GeneralSprite\NullSprite.cs" />
+    <Compile Include="GeneralSprite\SpikeSprite.cs" />
+    <Compile Include="GeneralSprite\StaticSprite.cs" />
+    <Compile Include="GeneralSprite\TenoMovingSprite.cs" />
+    <Compile Include="GeneralSprite\TrampolineSprite.cs" />
+    <Compile Include="GenericBlockState.cs" />
+    <Compile Include="GroundBlockState.cs" />
+    <Compile Include="HouseBlockState.cs" />
+    <Compile Include="IAnimatedSprite.cs" />
+    <Compile Include="IBlockState.cs" />
+    <Compile Include="IGameState.cs" />
+    <Compile Include="IHouseState.cs" />
+    <Compile Include="ISpriteFactory.cs" />
+    <Compile Include="ItemSprite\CoinSprite.cs" />
+    <Compile Include="ITenoPhysicsState.cs" />
+    <Compile Include="ITenoState.cs" />
+    <Compile Include="Leftcrouchingteno.cs" />
+    <Compile Include="LeftIdleTeno.cs" />
+    <Compile Include="LeftJumpingTeno.cs" />
+    <Compile Include="LeftMovingTeno.cs" />
+    <Compile Include="Level.cs" />
+    <Compile Include="House.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RightCrouchingteno.cs" />
+    <Compile Include="RightIdleTeno.cs" />
+    <Compile Include="RightJumpingTeno.cs" />
+    <Compile Include="RightMovingTeno.cs" />
+    <Compile Include="SpriteFactory.cs" />
+    <Compile Include="Teno.cs" />
+    <Compile Include="ValueHolder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

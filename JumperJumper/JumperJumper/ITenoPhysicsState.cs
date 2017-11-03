@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.Xna.Framework;
+
+namespace JumperJumper
+{
+    public interface ITenoPhysicsState
+    {
+        void Update(GameTime gametime);
+        void Run();
+        void Flip();
+    }
+}
