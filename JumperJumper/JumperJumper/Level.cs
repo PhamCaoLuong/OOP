@@ -17,14 +17,18 @@ namespace JumperJumper
         public List<Block> levelBlock = new List<Block>();
         public List<KeyValuePair<IAnimatedSprite, Vector2>> levelBackgroundObjects = 
                                                             new List<KeyValuePair<IAnimatedSprite, Vector2>>();
+        private List<Enemy> levelEnemies;
+        private List<House> levelHouses;
+        private List<ICollectable> levelItems;
 
         public LevelBuilder builder;
-        public CollisionDetecter collision;
+        public CollisionDetector collision;
         bool isVictory = false;
         public bool isUnderGround = false;
         public Vector2 exitPosition { get; set; }
         public IAnimatedSprite exitPole { get; set; }
         public Vector2 checkpoint;
+
 
         public Level(string fileName)
         {
@@ -32,7 +36,7 @@ namespace JumperJumper
             builder = new LevelBuilder(this);
             teno = builder.Build(fileName);
             game.gameCamera.LookAt(teno.position);
-            collision = new CollisionDetecter(teno, game);
+            collision = new CollisionDetector(teno, game);
             exitPole = new GateSprite(Game1.gameContent.Load<Texture2D>("gateFramedFinal"), 2, 23);
             game.gameHUD.Time = ValueHolder.startingTime;
         }
@@ -66,7 +70,7 @@ namespace JumperJumper
                 exitPole.Update(gameTime);
             }
 
-            collision.Detec(teno, levelBlock, levelPipe);
+            collision.Detect(teno, levelEnemies, levelBlock, levelHouses, levelItems);
             teno.Update(gameTime);
             if(teno.position.X < 0)
             {

@@ -114,7 +114,7 @@ namespace JumperJumper
         {
             state.MakeTeno();
         }
-        void MakeDeadTeno()
+        public void MakeDeadTeno()
         {
             //state.MakeDeadTeno();
         }
