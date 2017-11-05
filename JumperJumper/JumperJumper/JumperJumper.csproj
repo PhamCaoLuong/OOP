@@ -47,6 +47,7 @@
     <Compile Include="Collision Detector and Responser\EnemyCollisionResponder.cs" />
     <Compile Include="Collision Detector and Responser\HouseCollisionResponder.cs" />
     <Compile Include="Collision Detector and Responser\ItemCollisionResponder.cs" />
+    <Compile Include="Controller\KeyboardController.cs" />
     <Compile Include="DeadGameState.cs" />
     <Compile Include="DeadTeno.cs" />
     <Compile Include="ExclaminationBlockState.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="IHouseState.cs" />
     <Compile Include="Interface\ICollectable.cs" />
     <Compile Include="Interface\ICollectablePhysicsState.cs" />
+    <Compile Include="Interface\IController.cs" />
     <Compile Include="ISpriteFactory.cs" />
     <Compile Include="ItemSprite\CoinSprite.cs" />
     <Compile Include="Item\Coin.cs" />
