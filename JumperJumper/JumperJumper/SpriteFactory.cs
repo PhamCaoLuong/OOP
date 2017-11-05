@@ -30,6 +30,9 @@ namespace JumperJumper
             rightFallingTeno, leftFallingTeno, deadTeno,
             // Trampoline
             trampoline,
+
+            // title
+            title,
         }
 
         public SpriteFactory() { }

@@ -2,25 +2,25 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Content;
+using System.Threading.Tasks;
 using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Design;
 
 namespace JumperJumper
 {
-    public class PauseMenuKeyController : IController
+    public class TitleKeyController
     {
         private KeyboardState keyboardState;
 
         ICommands currentCommand;
         Dictionary<Keys, ICommands> commandLibrary;
 
-        public PauseMenuKeyController()
+        public TitleKeyController(GUI menu)
         {
             commandLibrary = new Dictionary<Keys, ICommands>();
-            commandLibrary.Add(Keys.Enter, currentCommand = new PauseCommand());
             commandLibrary.Add(Keys.Q, currentCommand = new QuitCommand());
+            commandLibrary.Add(Keys.S, new MenuDownCommand(menu));
+            commandLibrary.Add(Keys.W, new MenuUpCommand(menu));
+            commandLibrary.Add(Keys.Enter, new MenuSelectCommand(menu));
         }
 
         public void Update()
