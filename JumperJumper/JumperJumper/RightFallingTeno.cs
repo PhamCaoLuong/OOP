@@ -7,15 +7,16 @@ using System.Text;
 
 namespace JumperJumper
 {
-    class LeftJumpingTeno:ITenoState
+    class RightFallingTeno : ITenoState
     {
         Teno teno;
         public IAnimatedSprite Sprite { get; set; }
         ISpriteFactory factory;
-        public LeftJumpingTeno(Teno teno)
+
+        public RightFallingTeno(Teno teno)
         {
             factory = new SpriteFactory();
-            Sprite = factory.build(SpriteFactory.sprites.leftJumpingTeno);
+            Sprite = factory.build(SpriteFactory.sprites.rightFallingTeno);
             this.teno = teno;
         }
         public Rectangle GetBoundingBox(Vector2 location)
@@ -23,31 +24,30 @@ namespace JumperJumper
             return Sprite.GetBoundingBox(location);
         }
 
+
         public void Up()
         {
         }
         public void Down()
         {
-            teno.state = new LeftIdleTeno(teno);
         }
         public void GoLeft()
         {
+            teno.state = new LeftFallingTeno(teno);
         }
         public void GoRight()
         {
-            teno.state = new RightJumpingTeno(teno);
+
         }
         public void Idle()
         {
-            teno.state = new LeftIdleTeno(teno);
         }
         public void Land()
         {
-            teno.state = new LeftMovingTeno(teno);
+            teno.state = new RightMovingTeno(teno);
         }
         public void Fall()
         {
-            teno.state = new LeftFallingTeno(teno);
         }
         public void MakeTeno()
         {

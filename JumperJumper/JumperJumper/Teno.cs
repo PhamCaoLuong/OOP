@@ -27,7 +27,7 @@ namespace JumperJumper
 
         public Teno(Vector2 position)
         {
-            state = new RightIdleTS(this);
+            state = new RightIdleTeno(this);
             physState = new GroundState(this);
             this.position = position;
             factory = new SpriteFactory();
@@ -37,7 +37,7 @@ namespace JumperJumper
         {
             if(velocity.Y > minVelocity.Y && !isFalling)
             {
-                physState = new JumpingState(this);
+                physState = new RightJumpingTeno(this);
                 velocity.Y -= ValueHolder.jumpingVelocity;
                 state.Up();
             }
