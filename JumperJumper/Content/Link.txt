@@ -1,0 +1,16 @@
+s - sign
+T - teno
+b1 - Bush1
+G - gai	
+c1 - catus1
+c2 - catus2
+SB - StoneBlock
+S1 - Stone1
+S2 - Stone2
+T - tree
+G1 - grass1
+G2 - grass2
+M1 - mushroom1
+M2 - mushroom2
+se - sea
+SA - SignArrow
