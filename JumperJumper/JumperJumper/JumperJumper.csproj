@@ -42,6 +42,8 @@
     <Compile Include="Block.cs" />
     <Compile Include="BlockSprite\QuestionBlockSprite.cs" />
     <Compile Include="Camera.cs" />
+    <Compile Include="Factories\BlockFactory.cs" />
+    <Compile Include="Factories\CollectableFactory.cs" />
     <Compile Include="Collision Detector and Responser\BlockCollisionResponder.cs" />
     <Compile Include="Collision Detector and Responser\CollisionDetector.cs" />
     <Compile Include="Collision Detector and Responser\EnemyCollisionResponder.cs" />
@@ -54,6 +56,8 @@
     <Compile Include="DeadTeno.cs" />
     <Compile Include="ExclaminationBlockState.cs" />
     <Compile Include="ExplodingBlockState.cs" />
+    <Compile Include="Factories\EnemyFactory.cs" />
+    <Compile Include="Factories\PipeFactory.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="GameState\AchievementMenuGameState.cs" />
     <Compile Include="GameState\DeadFlipGameState.cs" />

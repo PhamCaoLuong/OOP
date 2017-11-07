@@ -7,6 +7,8 @@ c2 - catus2
 SB - StoneBlock
 S1 - Stone1
 S2 - Stone2
+S3 - Stone3
+S4 - Stone4
 T - tree
 G1 - grass1
 G2 - grass2
@@ -14,3 +16,5 @@ M1 - mushroom1
 M2 - mushroom2
 se - sea
 SA - SignArrow
+cr - crate
+ex - exit
