@@ -59,6 +59,10 @@ namespace JumperJumper
                         {
                             block.Explode();
                         }*/
+                        if(block.state.GetType().Equals(new TrampolineBlockState().GetType()))
+                        {
+                            //block.MakeTenoFly();
+                        }
                     }
                     else
                         standingBlock.Add(block);
@@ -88,7 +92,7 @@ namespace JumperJumper
             {
                 if(eneRect.Bottom > blockRect.Top && eneRect.Bottom < blockRect.Bottom)
                 {
-                    enemy.veclocity.Y = 0;
+                    //enemy.veclocity.Y = 0;
                     if(intersection.Height > 1)
                     {
                         enemy.position.Y -= intersection.Height;

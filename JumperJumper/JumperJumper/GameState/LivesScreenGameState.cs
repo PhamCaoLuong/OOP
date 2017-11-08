@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 namespace JumperJumper
 {
-    class LivesScreenGameState
+    class LivesScreenGameState : IGameState
     {
         int timer = 150;
         SpriteFont font;
@@ -29,7 +29,7 @@ namespace JumperJumper
             if (timer <= 0)
             {
                 game.level = new Level(StringHolder.levelOne);
-                game.gameState = new SuperMarioGameState();
+                game.gameState = new TenoGameState();
                 //SoundManager.currentSong = SoundManager.songs.nullSong;
                 //SoundManager.PlaySong(SoundManager.songs.overworld);
                 game.gameHUD.textColor = ValueHolder.normalScreenText;

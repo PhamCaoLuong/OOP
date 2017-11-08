@@ -32,7 +32,7 @@ namespace JumperJumper
         {
             currentCommand = new NullCommand();
             keyboardState = Keyboard.GetState();
-            foreach (Keys key in commandLibrabry)
+            foreach (Keys key in commandLibrabry.Keys)
             {
                 currentCommand = commandLibrabry[key];
                 currentCommand.Execute();

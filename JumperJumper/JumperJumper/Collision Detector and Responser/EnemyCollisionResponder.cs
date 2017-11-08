@@ -39,10 +39,10 @@ namespace JumperJumper
 
             if(intersection != null)
             {
-                enemy1.veclocity.Y = random.Next(-2, 2);
-                enemy1.veclocity.X = random.Next(-2, 2);
-                enemy2.veclocity.Y = random.Next(-2, 2);
-                enemy2.veclocity.X = random.Next(-2, 2);
+                enemy1.position.Y += random.Next(-2, 2);
+                enemy1.position.X += random.Next(-2, 2);
+                enemy2.position.Y += random.Next(-2, 2);
+                enemy2.position.X += random.Next(-2, 2);
             }
         }
     }

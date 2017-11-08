@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace JumperJumper
 {
-    public class PauseGameState
+    public class PauseGameState : IGameState
     {
         int inputBuffer = 10;
         Game1 game;

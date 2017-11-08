@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace JumperJumper
 {
-    class Camera
+    public class Camera
     {
         private Game1 game;
         private Viewport viewport;

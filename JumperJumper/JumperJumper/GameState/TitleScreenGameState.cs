@@ -26,7 +26,7 @@ namespace JumperJumper
             menu = new GUI(game);
             menu.options.Add(new KeyValuePair<ICommands, String>(new LoadLevelCommand(StringHolder.levelOne), "Level 1"));
             menu.options.Add(new KeyValuePair<ICommands, String>(new LoadLevelCommand(StringHolder.levelTwo), "Level 2"));
-            menu.options.Add(new KeyValuePair<ICommands, String>(new LoadLevelCommand(StringHolder.levelThree), "Level 3"));
+           // menu.options.Add(new KeyValuePair<ICommands, String>(new LoadLevelCommand(StringHolder.levelThree), "Level 3"));
             menu.options.Add(new KeyValuePair<ICommands, String>(new LoadAchPageCommand(), "Achievements"));
             menu.options.Add(new KeyValuePair<ICommands, String>(new QuitCommand(), "Quit"));
             menu.currentCommand = menu.options[0].Key;

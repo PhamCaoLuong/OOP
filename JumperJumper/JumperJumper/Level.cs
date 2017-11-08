@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Media;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 
 namespace JumperJumper
 {
@@ -17,9 +18,9 @@ namespace JumperJumper
         public List<Block> levelBlock = new List<Block>();
         public List<KeyValuePair<IAnimatedSprite, Vector2>> levelBackgroundObjects = 
                                                             new List<KeyValuePair<IAnimatedSprite, Vector2>>();
-        private List<Enemy> levelEnemies;
-        private List<House> levelHouses;
-        private List<ICollectable> levelItems;
+        public List<Enemy> levelEnemies;
+        public List<House> levelHouses;
+        public List<ICollectable> levelItems;
 
         public LevelBuilder builder;
         public CollisionDetector collision;
@@ -35,10 +36,13 @@ namespace JumperJumper
             game = new Game1();
             builder = new LevelBuilder(this);
             teno = builder.Build(fileName);
-            game.gameCamera.LookAt(teno.position);
+            game.gameCamera = Game1.GetInstance().gameCamera;
+            if(game.gameCamera != null)
+                game.gameCamera.LookAt(teno.position);
             collision = new CollisionDetector(teno, game);
-            exitPole = new GateSprite(Game1.gameContent.Load<Texture2D>("gateFramedFinal"), 2, 23);
-            game.gameHUD.Time = ValueHolder.startingTime;
+            //exitPole = new GateSprite(Game1.gameContent.Load<Texture2D>("gateFramedFinal"), 2, 23);
+            if(game.gameHUD != null)
+                game.gameHUD.Time = ValueHolder.startingTime;
         }
 
         public void Update(GameTime gameTime)
@@ -49,26 +53,26 @@ namespace JumperJumper
                 backgroundObject.Key.Update(gameTime);
             }
 
-            foreach (House pipeUpdater in levelPipe)
+            /*foreach (House pipeUpdater in levelPipe)
             {
                 if(game.gameCamera.InCameraView(pipeUpdater.getBoundingBox()))
                 {
                     pipeUpdater.Update(gameTime);
                 }
             }
-
+            */
             foreach (Block blockUpdater in levelBlock)
             {
-                if(game.gameCamera.InCameraView(blockUpdater.getBoundingBox()))
+                if(game.gameCamera.InCameraView(blockUpdater.GetBoundingBox()))
                 {
                     blockUpdater.Update(gameTime);
                 }
             }
 
-            if(game.gameCamera.InCameraView(exitPole.GetBoundingBox()))
+            /*if(game.gameCamera.InCameraView(exitPole.GetBoundingBox()))
             {
                 exitPole.Update(gameTime);
-            }
+            }*/
 
             collision.Detect(teno, levelEnemies, levelBlock, levelHouses, levelItems);
             teno.Update(gameTime);
@@ -89,27 +93,27 @@ namespace JumperJumper
         {
             foreach (KeyValuePair<IAnimatedSprite, Vector2> backgroundObject in levelBackgroundObjects)
             {
-                backgroundObject.Key.Draw(spriteBacth);
+                backgroundObject.Key.Draw(spriteBacth, backgroundObject.Value, Color.White);
             }
-            foreach (House pipeDrawer in levelPipe)
+            /*foreach (House pipeDrawer in levelPipe)
             {
                 if(game.gameCamera.InCameraView(pipeDrawer.GetBoundingBox()))
                 {
                     pipeDrawer.Draw(spriteBacth);
                 }
-            }
+            }*/
 
             foreach (Block blockDrawer in levelBlock)
             {
                 if(game.gameCamera.InCameraView(blockDrawer.GetBoundingBox()))
                 {
-                    blockDrawer.Draw(spriteBacth);
+                    blockDrawer.Draw(spriteBacth, blockDrawer.position);
                 }
             }
-            if(game.gameCamera.InCameraView(exitPole.GetBoundingBox()))
+            /*if(game.gameCamera.InCameraView(exitPole.GetBoundingBox()))
             {
                 exitPole.Draw(spriteBacth, exitPosition);
-            }
+            }*/
             /* if(!game.isTitle)
              * {
              *      teno.Draw(spriteBacth);

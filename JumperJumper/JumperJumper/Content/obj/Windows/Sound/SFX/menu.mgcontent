@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/menu.mp3</SourceFile>
+  <SourceTime>2017-10-02T05:56:42+07:00</SourceTime>
+  <DestFile>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/bin/Windows/Sound/SFX/menu.xnb</DestFile>
+  <DestTime>2017-11-08T16:58:51.9405033+07:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2016-03-30T13:36:08+07:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2016-03-30T13:36:08+07:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/bin/Windows/Sound/SFX/menu.wma</string>
+  </BuildOutput>
+</PipelineBuildEvent>

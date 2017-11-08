@@ -13,3 +13,171 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin Sound/SFX/SFX Jump.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/SFX Jump.mp3
+
+#begin Sound/Music/Map BGM.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Music/Map BGM.mp3
+
+#begin Sound/Music/Course Clear Fanfare.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Music/Course Clear Fanfare.mp3
+
+#begin Sound/Music/Game Over.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Music/Game Over.mp3
+
+#begin ../../../../../OOP/CSharpMario-master/Sprint 4/Sprint_4Content/Sound/Music/Map BGM.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:../../../../../OOP/CSharpMario-master/Sprint 4/Sprint_4Content/Sound/Music/Map BGM.mp3
+
+#begin Sound/Music/Overworld BGM.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Music/Overworld BGM.mp3
+
+#begin Sound/Music/OverworldTimeRunningOut.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Music/OverworldTimeRunningOut.mp3
+
+#begin Sound/Music/Potential for Anything.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Music/Potential for Anything.mp3
+
+#begin Sound/Music/Shadow Ninja.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Music/Shadow Ninja.mp3
+
+#begin Sound/Music/Star BGM.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Music/Star BGM.mp3
+
+#begin Sound/Music/title music.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Music/title music.mp3
+
+#begin Sound/Music/Underground BGM.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Music/Underground BGM.mp3
+
+#begin Sound/SFX/BillLaunch.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/BillLaunch.mp3
+
+#begin Sound/SFX/fireball.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/fireball.mp3
+
+#begin Sound/SFX/flip.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/flip.mp3
+
+#begin Sound/SFX/menu.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/menu.mp3
+
+#begin Sound/SFX/Player Down.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/Player Down.mp3
+
+#begin Sound/SFX/SFX 1up.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/SFX 1up.mp3
+
+#begin Sound/SFX/SFX Brick Break.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/SFX Brick Break.mp3
+
+#begin Sound/SFX/SFX coin collect.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/SFX coin collect.mp3
+
+#begin Sound/SFX/SFX Enemy damage.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/SFX Enemy damage.mp3
+
+#begin Sound/SFX/SFX Grow.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/SFX Grow.mp3
+
+#begin Sound/SFX/SFX item spawn.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/SFX item spawn.mp3
+
+#begin ../../../../../OOP/CSharpMario-master/Sprint 4/Sprint_4Content/Sound/SFX/SFX Jump.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:../../../../../OOP/CSharpMario-master/Sprint 4/Sprint_4Content/Sound/SFX/SFX Jump.mp3
+
+#begin Sound/SFX/SFX kick.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/SFX kick.mp3
+
+#begin Sound/SFX/SFX land.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/SFX land.mp3
+
+#begin Sound/SFX/SFX shrink.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/SFX/SFX shrink.mp3
+
+#begin Sound/Achievements/AchievementUnlocked.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Achievements/AchievementUnlocked.mp3
+

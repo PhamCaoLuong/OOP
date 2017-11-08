@@ -1,23 +1,26 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
 
-namespace JumperJumper.GameState
+
+namespace JumperJumper
 {
-    public class DeadGameState
+    class DeadGameState : IGameState
     {
         Game1 game;
         Teno teno;
         int pauseTimer = 30, upTimer = 30, downTimer = 180;
         int positionChange = 5;
 
-        public DeadGameState(Teno teno)
+        public DeadGameState(Teno mario)
         {
             game = Game1.GetInstance();
-            this.teno = teno;
+            this.teno = mario;
+            //SoundManager.StopMusic();
+            //SoundManager.death.Play();
             teno.isDead = true;
         }
 
@@ -39,14 +42,21 @@ namespace JumperJumper.GameState
             }
             if (downTimer <= 0)
             {
-                game.gameState = new GameOverState();
-               
+                if (game.gameHUD.Lives > 0)
+                {
+                    game.gameState = new LivesScreenGameState();
+                }
+                else
+                {
+                    game.gameState = new GameOverState();
+                }
             }
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
             game.level.Draw(spriteBatch);
+            game.gameHUD.Draw(spriteBatch);
         }
     }
 }

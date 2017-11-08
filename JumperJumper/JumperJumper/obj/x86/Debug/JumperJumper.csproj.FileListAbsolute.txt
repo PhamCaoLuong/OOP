@@ -1,2 +1,79 @@
 C:\Users\user\Desktop\OOP\JumperJumper\JumperJumper\obj\x86\Debug\JumperJumper.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\JumperJumper\JumperJumper\obj\x86\Debug\JumperJumper.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\obj\x86\Debug\JumperJumper.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\JumperJumper.exe
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\JumperJumper.pdb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\obj\x86\Debug\JumperJumper.exe
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\obj\x86\Debug\JumperJumper.pdb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX Jump.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX Jump.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Course Clear Fanfare.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Course Clear Fanfare.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Game Over.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Game Over.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Map BGM.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Map BGM.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Overworld BGM.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Overworld BGM.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\OverworldTimeRunningOut.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\OverworldTimeRunningOut.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Potential for Anything.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Potential for Anything.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Shadow Ninja.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Shadow Ninja.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Star BGM.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Star BGM.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\title music.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\title music.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Underground BGM.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Music\Underground BGM.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\BillLaunch.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\BillLaunch.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\fireball.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\fireball.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\flip.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\flip.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\menu.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\menu.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\Player Down.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\Player Down.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX 1up.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX 1up.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX Brick Break.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX Brick Break.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX coin collect.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX coin collect.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX Enemy damage.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX Enemy damage.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX Grow.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX Grow.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX item spawn.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX item spawn.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX kick.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX kick.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX land.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX land.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX shrink.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX shrink.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Achievements\AchievementUnlocked.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Achievements\AchievementUnlocked.xnb

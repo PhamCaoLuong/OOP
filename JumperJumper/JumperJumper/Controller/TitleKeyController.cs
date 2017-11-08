@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace JumperJumper
 {
-    public class TitleKeyController
+    public class TitleKeyController : IController
     {
         private KeyboardState keyboardState;
 

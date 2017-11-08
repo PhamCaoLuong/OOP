@@ -23,7 +23,7 @@ namespace JumperJumper
         {
             position = location;
             this.state = state;
-            hurtFX = SoundManager.enemyDamage.CreateInstance();
+            //hurtFX = SoundManager.enemyDamage.CreateInstance();
             physState = new EnemyGroundState(this);
         }
         public void GoLeft()

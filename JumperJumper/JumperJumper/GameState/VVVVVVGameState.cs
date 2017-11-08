@@ -14,7 +14,7 @@ namespace JumperJumper
         public VVVVVVGameState()
         {
             game = Game1.GetInstance();
-            game.level.mario.physState = new VVVVVVGroundState(game.level.teno, 1);
+            game.level.teno.physState = new VVVVVVGroundState(game.level.teno, 1);
             game.keyboardController = new VVVVVVKeyController(game.level.teno);
             game.background.CurrentSprite = new NullSprite();
             game.gameHUD.PausedCheck = false;

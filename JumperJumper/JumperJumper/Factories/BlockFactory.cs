@@ -166,14 +166,14 @@ namespace JumperJumper
                 state = new GenericBlockState(SpriteFactory.sprites.crate);
             }
 
-            if (type == BlockType.mushroom1)
+            /*if (type == BlockType.mushroom1)
             {
-                /// state = new TrampolineBlockState(SpriteFactory.sprites.mushroom1); 
+                state = new TrampolineBlockState(SpriteFactory.sprites.mushroom1); 
             }
             if(type == BlockType.mushroom2)
             {
-                /// state = new TranpolineBlockState(SpriteFactory.sprites.mushroom2);
-            }
+                state = new TrampolineBlockState(SpriteFactory.sprites.mushroom2);
+            }*/
 
             Block product = new Block(location, prize, state);
             return product;

@@ -7,7 +7,7 @@ using System.IO;
 using Microsoft.Xna.Framework;
 namespace JumperJumper
 {
-    class LevelBuilder
+    public class LevelBuilder
     {
         public Dictionary<string, CollectableFactory.CollectableType> itemDictionary = new Dictionary<string, CollectableFactory.CollectableType>();
         public Dictionary<string, BlockFactory.BlockType> blockDictionary = new Dictionary<string, BlockFactory.BlockType>();
@@ -61,7 +61,7 @@ namespace JumperJumper
         {
             float xCoord = 0, yCoord = 0;
             StreamReader sr;
-            sr = File.OpenText(Game1.GetInstance().Content.RootDirectory + fileName);
+            sr = File.OpenText(fileName);
             string line;
             while((line = sr.ReadLine())!=null)
             {

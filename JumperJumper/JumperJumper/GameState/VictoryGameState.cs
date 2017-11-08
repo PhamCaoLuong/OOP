@@ -22,7 +22,7 @@ namespace JumperJumper
             //SoundManager.clear.Play();
             right = new RightCommand(game.level.teno);
             game.gameHUD.gameEnded = true;
-            game.ach.AchievementAdjustment(AchievementsManager.AchievementType.Level);
+            game.ach.AchievementAdjustment(AchievementsManager.AchievementType.Level1);
         }
 
         public void Update(GameTime gameTime)
@@ -40,7 +40,7 @@ namespace JumperJumper
             }
             else
             {
-                game.level.mario.MakeVictoryTeno();
+                game.level.teno.MakeVictoryTeno();
                 if (walkTimer < -70)
                 {
                     Game1.GetInstance().level = new Level(StringHolder.levelOne);

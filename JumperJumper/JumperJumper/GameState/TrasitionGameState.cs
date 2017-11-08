@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace JumperJumper.GameState
+namespace JumperJumper
 {
-    class TrasitionGameState : IGameState
+    public class TrasitionGameState : IGameState
     {
         Game1 game;
         Teno teno;

@@ -16,7 +16,7 @@ namespace JumperJumper
         public TenoGameState()
         {
             game = Game1.GetInstance();
-            game.keyboardController = new KeyboardController(game.level.mario);
+            game.keyboardController = new KeyboardController(game.level.teno);
             game.gameHUD.PausedCheck = false;
             game.gameHUD.gameEnded = false;
             game.isVVVVVV = false;

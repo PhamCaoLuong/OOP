@@ -51,8 +51,8 @@ namespace JumperJumper
                 }
                 foreach (Enemy otherEnemy in levelEnemies)
                 {
-                    Rectangle otherEnemy = otherEnemy.state.GetBoundingBox(otherEnemy.position);
-                    if (otherEnemy != enemy && otherEnemy.Intersects(eneRect))
+                    Rectangle otherEnemyRect = otherEnemy.state.GetBoundingBox(otherEnemy.position);
+                    if (otherEnemy != enemy && otherEnemyRect.Intersects(eneRect))
                         enemyResponser.EnemyEnemyCollide(enemy, otherEnemy);
                 }
                 foreach (House house in levelHouses)

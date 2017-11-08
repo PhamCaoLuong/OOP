@@ -27,7 +27,7 @@ namespace JumperJumper
 
         public Teno(Vector2 position)
         {
-            state = new RightIdleTS(this);
+            state = new RightIdleTeno(this);
             physState = new GroundState(this);
             this.position = position;
             factory = new SpriteFactory();
@@ -93,7 +93,7 @@ namespace JumperJumper
 
         public void Respawn()
         {
-            state = new RightIdleTS(this);
+            state = new RightIdleTeno(this);
             physState = new VVVVVVGroundState(this, 1);
             gravityDirection = 1;
             position = Game1.GetInstance().level.checkpoint;
@@ -118,5 +118,10 @@ namespace JumperJumper
         {
             //state.MakeDeadTeno();
         }
+        public void TransitionState(ITenoState prevState, ITenoState newState)
+        {
+            Game1.GetInstance().gameState = new TrasitionGameState(this, prevState, newState);
+        }
+
     }
 }

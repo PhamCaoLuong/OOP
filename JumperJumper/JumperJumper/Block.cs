@@ -32,7 +32,7 @@ namespace JumperJumper
             }
             if (explosionTimer < 0)
             {
-                Game1.GetInstance().level.collision.destroyedBlocks.Add(this);
+               // Game1.GetInstance().level.collision.destroyedBlocks.Add(this);
             }
             state.Update(gameTime, this);
         }
@@ -59,6 +59,6 @@ namespace JumperJumper
             state = new ExplodingBlockState();
             isExploding = true;
         }
+
     }
-}
 }

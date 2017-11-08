@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/SFX Jump.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/Music/Map BGM.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/Music/Course Clear Fanfare.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/Music/Game Over.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/../../../../../OOP/CSharpMario-master/Sprint 4/Sprint_4Content/Sound/Music/Map BGM.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/Music/Overworld BGM.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/Music/OverworldTimeRunningOut.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/Music/Potential for Anything.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/Music/Shadow Ninja.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/Music/Star BGM.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/Music/title music.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/Music/Underground BGM.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/BillLaunch.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/fireball.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/flip.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/menu.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/Player Down.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/SFX 1up.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/SFX Brick Break.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/SFX coin collect.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/SFX Enemy damage.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/SFX Grow.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/SFX item spawn.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/../../../../../OOP/CSharpMario-master/Sprint 4/Sprint_4Content/Sound/SFX/SFX Jump.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/SFX kick.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/SFX land.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/SFX shrink.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/Achievements/AchievementUnlocked.mp3</File>
+  </SourceFiles>
+</SourceFileCollection>
