@@ -33,8 +33,8 @@ namespace JumperJumper
             //achFX = SoundManager.achUnlocked.CreateInstance();
             this.game = game;
             achievementKeeper = new Dictionary<AchievementType, Achievement>();
-            achievementKeeper.Add(AchievementType.Level1, new Achievement() { isUnlocked = false, image = Game1.gameContent.Load<Texture2D>("Achievements/achievementBeatLevel1"), greyImage = Game1.gameContent.Load<Texture2D>("Achievements/achLevel1Grey"), unlockCheck = 1, unlockMark = 0 });
-            achievementKeeper.Add(AchievementType.Level2, new Achievement() { isUnlocked = false, image = Game1.gameContent.Load<Texture2D>("Achievements/achievementBeatLevel2"), greyImage = Game1.gameContent.Load<Texture2D>("Achievements/achLevel1Grey"), unlockCheck = 1, unlockMark = 0 });
+            //achievementKeeper.Add(AchievementType.Level1, new Achievement() { isUnlocked = false, image = Game1.gameContent.Load<Texture2D>("Achievements/achievementBeatLevel1"), greyImage = Game1.gameContent.Load<Texture2D>("Achievements/achLevel1Grey"), unlockCheck = 1, unlockMark = 0 });
+            //achievementKeeper.Add(AchievementType.Level2, new Achievement() { isUnlocked = false, image = Game1.gameContent.Load<Texture2D>("Achievements/achievementBeatLevel2"), greyImage = Game1.gameContent.Load<Texture2D>("Achievements/achLevel1Grey"), unlockCheck = 1, unlockMark = 0 });
             //achievementKeeper.Add(AchievementType.Level1, new Achievement() { isUnlocked = false, image = Game1.gameContent.Load<Texture2D>("Achievements/achievementBeatLevel1"), greyImage = Game1.gameContent.Load<Texture2D>("Achievements/achLevelGrey"), unlockCheck = 1, unlockMark = 0 });
 
             /*achievementKeeper.Add(AchievementType.Coins, new Achievement() { isUnlocked = false, image = Game1.gameContent.Load<Texture2D>("Achievements/achievementCoins"), greyImage = Game1.gameContent.Load<Texture2D>("Achievements/achCoinsGrey"), unlockCheck = 1, unlockMark = 0 });

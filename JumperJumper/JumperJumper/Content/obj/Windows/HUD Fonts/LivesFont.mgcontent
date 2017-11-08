@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Fonts/LivesFont.spritefont</SourceFile>
+  <SourceTime>2017-11-08T20:02:07.14195+07:00</SourceTime>
+  <DestFile>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/bin/Windows/HUD Fonts/LivesFont.xnb</DestFile>
+  <DestTime>2017-11-08T20:02:10.5674572+07:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2016-03-30T13:36:08+07:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2016-03-30T13:36:08+07:00</ProcessorTime>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

@@ -32,5 +32,38 @@
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/SFX land.mp3</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/SFX/SFX shrink.mp3</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Sound/Achievements/AchievementUnlocked.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Fonts/SpriteFont1.spritefont</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Fonts/SpriteFont2.spritefont</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Fonts/CoinsFont.spritefont</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Fonts/LivesFont.spritefont</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Fonts/PauseFont.spritefont</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Fonts/ScoreFont.spritefont</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Fonts/TimeFont.spritefont</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/PauseFont.spritefont</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achCoins.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achCoinsGrey.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achFireball.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achFireballGrey.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achHitEnemy.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achHitEnemyGrey.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achievementBeatLevel.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achievementBeatLevel1.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achievementCoins.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achievementEat.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achievementEnemy.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achievementFall.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achievementFireball.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achievementLife.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/AchievementUnlocked.mp3</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achLevel.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achLevel1Grey.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achLevelGrey.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achLife.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achLifeGrey.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achMushroom.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achMushroomGrey.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Sprites/HUDCoinSprite.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Sprites/HUDMario.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Sprites/TimeSprite.png</File>
   </SourceFiles>
 </SourceFileCollection>

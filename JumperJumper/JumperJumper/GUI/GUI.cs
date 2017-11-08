@@ -17,7 +17,7 @@ namespace JumperJumper
         public List<KeyValuePair<ICommands, String>> options { get; set; }
         public ICommands currentCommand { get; set; }
         int selection = 0, menuNumber = 0;
-        SpriteFont font;
+        private SpriteFont font;
         Vector2 adjust = new Vector2(0, 15);
         SpriteFactory factory;
         IAnimatedSprite coin;
@@ -30,7 +30,7 @@ namespace JumperJumper
         {
             this.game = game;
             options = new List<KeyValuePair<ICommands, String>>();
-            font = Game1.gameContent.Load<SpriteFont>(StringHolder.hudPauseFont);
+            //font = Game1.gameContent.Load<SpriteFont>("PauseFont");
             factory = new SpriteFactory();
             coin = factory.build(SpriteFactory.sprites.coin);
         }

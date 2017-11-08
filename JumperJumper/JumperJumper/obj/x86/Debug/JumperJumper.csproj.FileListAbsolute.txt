@@ -77,3 +77,37 @@ C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Co
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\SFX\SFX shrink.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Achievements\AchievementUnlocked.wma
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Sound\Achievements\AchievementUnlocked.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Fonts\SpriteFont1.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Fonts\SpriteFont2.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Fonts\CoinsFont.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Fonts\LivesFont.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Fonts\PauseFont.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Fonts\ScoreFont.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Fonts\TimeFont.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\PauseFont.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achCoins.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achCoinsGrey.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achFireball.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achFireballGrey.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achHitEnemy.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achHitEnemyGrey.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achievementBeatLevel.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achievementBeatLevel1.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achievementCoins.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achievementEat.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achievementEnemy.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achievementFall.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achievementFireball.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achievementLife.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\AchievementUnlocked.wma
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\AchievementUnlocked.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achLevel.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achLevel1Grey.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achLevelGrey.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achLife.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achLifeGrey.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achMushroom.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achMushroomGrey.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Sprites\HUDCoinSprite.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Sprites\HUDMario.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Sprites\TimeSprite.xnb
