@@ -7,14 +7,15 @@ namespace JumperJumper
 {
     public class QuitCommand : ICommands
     {
-
-        public QuitCommand()
+        Game1 game;
+        public QuitCommand(Game1 game)
         {
+            this.game = game;
         }
 
         public void Execute()
         {
-            Game1.GetInstance().Exit();
+            game.Exit();
         }
     }
 }

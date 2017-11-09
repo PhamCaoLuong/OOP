@@ -17,17 +17,18 @@ namespace JumperJumper
         IAnimatedSprite logo;
         public GUI menu;
 
-        public TitleScreenGameState()
+        public TitleScreenGameState(Game1 game)           
         {
+            this.game = game;
+
             factory = new SpriteFactory();
             logo = factory.build(SpriteFactory.sprites.title);
             //SoundManager.PlaySong(SoundManager.songs.title);
-            game = Game1.GetInstance();
             menu = new GUI(game);
-            menu.options.Add(new KeyValuePair<ICommands, String>(new LoadLevelCommand(StringHolder.levelOne), "Level 1"));
-            menu.options.Add(new KeyValuePair<ICommands, String>(new LoadLevelCommand(StringHolder.levelTwo), "Level 2"));
+            menu.options.Add(new KeyValuePair<ICommands, String>(new LoadLevelCommand(StringHolder.levelOne, game), "Level 1"));
+            menu.options.Add(new KeyValuePair<ICommands, String>(new LoadLevelCommand(StringHolder.levelTwo, game), "Level 2"));
            // menu.options.Add(new KeyValuePair<ICommands, String>(new LoadLevelCommand(StringHolder.levelThree), "Level 3"));
-            menu.options.Add(new KeyValuePair<ICommands, String>(new LoadAchPageCommand(), "Achievements"));
+            menu.options.Add(new KeyValuePair<ICommands, String>(new LoadAchPageCommand(game), "Achievements"));
             menu.options.Add(new KeyValuePair<ICommands, String>(new QuitCommand(), "Quit"));
             menu.currentCommand = menu.options[0].Key;
             game.keyboardController = new TitleKeyController(menu);

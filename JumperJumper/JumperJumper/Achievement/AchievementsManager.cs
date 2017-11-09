@@ -34,7 +34,7 @@ namespace JumperJumper
             this.game = game;
             achievementKeeper = new Dictionary<AchievementType, Achievement>();
             achievementKeeper.Add(AchievementType.Level1, new Achievement() { isUnlocked = false, image = Game1.gameContent.Load<Texture2D>("Achievements/achievementBeatLevel1"), greyImage = Game1.gameContent.Load<Texture2D>("Achievements/achLevel1Grey"), unlockCheck = 1, unlockMark = 0 });
-            //achievementKeeper.Add(AchievementType.Level2, new Achievement() { isUnlocked = false, image = Game1.gameContent.Load<Texture2D>("Achievements/achievementBeatLevel2"), greyImage = Game1.gameContent.Load<Texture2D>("Achievements/achLevel1Grey"), unlockCheck = 1, unlockMark = 0 });
+            achievementKeeper.Add(AchievementType.Level2, new Achievement() { isUnlocked = false, image = Game1.gameContent.Load<Texture2D>("Achievements/achievementBeatLevel2"), greyImage = Game1.gameContent.Load<Texture2D>("Achievements/achLevel2Grey"), unlockCheck = 1, unlockMark = 0 });
             //achievementKeeper.Add(AchievementType.Level1, new Achievement() { isUnlocked = false, image = Game1.gameContent.Load<Texture2D>("Achievements/achievementBeatLevel1"), greyImage = Game1.gameContent.Load<Texture2D>("Achievements/achLevelGrey"), unlockCheck = 1, unlockMark = 0 });
 
             /*achievementKeeper.Add(AchievementType.Coins, new Achievement() { isUnlocked = false, image = Game1.gameContent.Load<Texture2D>("Achievements/achievementCoins"), greyImage = Game1.gameContent.Load<Texture2D>("Achievements/achCoinsGrey"), unlockCheck = 1, unlockMark = 0 });
@@ -48,10 +48,10 @@ namespace JumperJumper
         public void AchievementUnlocked(Achievement ach)
         {
             achTimer = ValueHolder.achTimer;
-            if (achFX.State == SoundState.Stopped)
+            /*if (achFX.State == SoundState.Stopped)
             {
                 achFX.Play();
-            }
+            }*/
             ach.isUnlocked = true;
             game.gameHUD.Achievement = ach.image;
             game.gameHUD.hideAch = false;

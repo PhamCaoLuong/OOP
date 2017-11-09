@@ -8,14 +8,14 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace JumperJumper
 {
-    public class RightTallDinoState : IEnemyState
+    /*public class RightTallDinoState : IEnemyState
     {
         IAnimatedSprite sprite;
         
         public RightTallDinoState()
         {
             ISpriteFactory factory = new SpriteFactory();
-            sprite = factory.build(SpriteFactory.sprites.walkingRightDino);
+            sprite = factory.build(SpriteFactory.sprites.rightRunTeno);
         }
         public Rectangle GetBoundingBox(Vector2 location)
         {
@@ -54,5 +54,5 @@ namespace JumperJumper
         {
             sprite.Draw(spriteBatch, location, Color.White);
         }
-    }
+    }*/
 }

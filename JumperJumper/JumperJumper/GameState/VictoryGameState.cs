@@ -14,9 +14,9 @@ namespace JumperJumper
         int slowFrames = 3;
         RightCommand right;
 
-        public VictoryGameState()
+        public VictoryGameState(Game1 game)
         {
-            game = Game1.GetInstance();
+            this.game = game;
             game.isVictory = true;
             //SoundManager.StopMusic();
             //SoundManager.clear.Play();
@@ -43,13 +43,13 @@ namespace JumperJumper
                 game.level.teno.MakeVictoryTeno();
                 if (walkTimer < -70)
                 {
-                    Game1.GetInstance().level = new Level(game, StringHolder.levelOne);
-                    Game1.GetInstance().background.CurrentSprite = Game1.GetInstance().background.OverworldSprite;
-                    Game1.GetInstance().gameState = new TitleScreenGameState();
-                    Game1.GetInstance().isTitle = true;
-                    Game1.GetInstance().gameHUD.Coins = 0;
-                    Game1.GetInstance().gameHUD.Lives = 3;
-                    Game1.GetInstance().gameHUD.Score = 0;
+                    game.level = new Level(game, StringHolder.levelOne);
+                    game.background.CurrentSprite = game.background.H1Sprite;
+                    game.gameState = new TitleScreenGameState(game);
+                    game.isTitle = true;
+                    game.gameHUD.Coins = 0;
+                    game.gameHUD.Lives = 3;
+                    game.gameHUD.Score = 0;
                 }
             }
             walkTimer--;

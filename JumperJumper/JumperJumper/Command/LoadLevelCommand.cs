@@ -9,24 +9,26 @@ namespace JumperJumper
     {
         Game1 game;
         String levelName;
-        public LoadLevelCommand(String levelName)
+        public LoadLevelCommand(String levelName, Game1 game)
+
         {
+            this.game = game;
             this.levelName = levelName;
         }
         public void Execute()
         {
-            Game1.GetInstance().level = new Level(game, levelName);
+            game.level = new Level(game, levelName);
             if (levelName == StringHolder.levelOne)
             {
-                Game1.GetInstance().gameState = new TenoGameState();
+                game.gameState = new TenoGameState();
                 SoundManager.PlaySong(SoundManager.songs.overworld);
             }
             if (levelName == StringHolder.levelTwo)
             {
-                Game1.GetInstance().gameState = new VVVVVVGameState();
+                game.gameState = new VVVVVVGameState(game);
                 SoundManager.PlaySong(SoundManager.songs.vmusic);
             }
-            Game1.GetInstance().isTitle = false;
+            game.isTitle = false;
         }
     }
 }

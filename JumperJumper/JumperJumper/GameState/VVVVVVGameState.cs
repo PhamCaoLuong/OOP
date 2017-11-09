@@ -11,11 +11,11 @@ namespace JumperJumper
     {
         Game1 game;
 
-        public VVVVVVGameState()
+        public VVVVVVGameState(Game1 game)
         {
-            game = Game1.GetInstance();
+            this.game = game;
             game.level.teno.physState = new VVVVVVGroundState(game.level.teno, 1);
-            game.keyboardController = new VVVVVVKeyController(game.level.teno);
+            game.keyboardController = new VVVVVVKeyController(game.level.teno, game);
             game.background.CurrentSprite = new NullSprite();
             game.gameHUD.PausedCheck = false;
             game.gameHUD.gameEnded = false;

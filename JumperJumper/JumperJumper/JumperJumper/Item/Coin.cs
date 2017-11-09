@@ -17,9 +17,10 @@ namespace JumperJumper
         ISpriteFactory factory = new SpriteFactory();
         int spawnTimer = 5;
         Vector2 spawnAdjust = new Vector2(0, 20);
-
-        public Coin(Vector2 location)
+        Game1 game;
+        public Coin(Vector2 location, Game1 game)
         {
+            this.game = game;
             position = location;
             isSpawning = false;
             sprite = factory.build(SpriteFactory.sprites.coin);
@@ -60,9 +61,9 @@ namespace JumperJumper
 
         public void Spawn()
         {
-            Game1.GetInstance().level.levelItems.Add(this);
+            game.level.levelItems.Add(this);
             //SoundManager.coinCollect.Play();
-            //Game1.GetInstance().gameHUD.Coins++;
+            game.gameHUD.Coins++;
             position = position - spawnAdjust;
             isSpawning = true;
         }

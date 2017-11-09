@@ -13,9 +13,9 @@ namespace JumperJumper
         int gameStateTransitionBuffer = 5;
         Game1 game;
 
-        public TenoGameState()
+        public TenoGameState(Game1 game)
         {
-            game = Game1.GetInstance();
+            this.game = game;
             game.keyboardController = new KeyboardController(game.level.teno);
             game.gameHUD.PausedCheck = false;
             game.gameHUD.gameEnded = false;

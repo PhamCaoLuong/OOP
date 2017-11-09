@@ -11,10 +11,10 @@ namespace JumperJumper
         private Vector2 oldPos;
         private float positionDifference = .5f;
 
-        public EnemyGroundState(Enemy item)
+        public EnemyGroundState(Enemy enemy)
         {
-            item.velocity = new Vector2(item.velocity.X, 0);
-            oldPos = item.position;
+            enemy.velocity = new Vector2(enemy.velocity.X, 0);
+            oldPos = enemy.position;
         }
         public void Update(Enemy enemy, GameTime gameTime)
         {

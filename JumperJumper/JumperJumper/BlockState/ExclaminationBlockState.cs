@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace JumperJumper
 {
-    public class ExclaminationBlockState : IBlockState
+   /* public class ExclaminationBlockState : IBlockState  // không cần
     {
         IAnimatedSprite sprite;
         ISpriteFactory factory;
@@ -38,5 +38,5 @@ namespace JumperJumper
         {
             sprite = factory.build(SpriteFactory.sprites.usedBlock);
         }
-    }
+    }*/
 }

@@ -12,9 +12,10 @@ namespace JumperJumper
         private float speedDecayRate = .73f;
         private float positionDtAdjust = 20;
         private int gravityStrength = 4;
-
-        public VVVVVVAirState(Teno teno, int sign)
+        Game1 game;
+        public VVVVVVAirState(Teno teno, int sign, Game1 game)
         {
+            this.game = game;
             this.teno = teno;
             gravityStrength *= sign;
         }
@@ -24,7 +25,7 @@ namespace JumperJumper
             teno.position.X += teno.velocity.X * ((float)gameTime.ElapsedGameTime.Milliseconds / positionDtAdjust);
             teno.velocity.X *= speedDecayRate;
             teno.position.Y += gravityStrength;
-            if (Game1.GetInstance().level.collision.standingBlock.Count > 0)
+            if (game.level.collision.standingBlock.Count > 0)
             {
                 teno.physState = new VVVVVVGroundState(teno, teno.gravityDirection);
             }

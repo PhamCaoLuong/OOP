@@ -16,9 +16,10 @@ namespace JumperJumper
         public Vector2 position = new Vector2(0, 0);
         int explosionTimer = 20;
         bool isExploding = false;
-
-        public Block(Vector2 location, ICollectable prize, IBlockState state)
+        Game1 game;
+        public Block(Vector2 location, ICollectable prize, IBlockState state, Game1 game)
         {
+            this.game = game;
             this.prize = prize;
             this.state = state;
             position = location;
@@ -32,7 +33,7 @@ namespace JumperJumper
             }
             if (explosionTimer < 0)
             {
-                Game1.GetInstance().level.collision.destroyedBlocks.Add(this);
+                game.level.collision.destroyedBlocks.Add(this);
             }
             state.Update(gameTime, this);
         }

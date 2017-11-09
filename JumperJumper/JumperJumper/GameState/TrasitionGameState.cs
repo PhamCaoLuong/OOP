@@ -15,9 +15,9 @@ namespace JumperJumper
         int timer = 50, timeMod = 5;
         ITenoState prevState, newState, currentState;
 
-        public TrasitionGameState(Teno teno, ITenoState prevState, ITenoState newState)
+        public TrasitionGameState(Teno teno, ITenoState prevState, ITenoState newState, Game1 game)
         {
-            game = Game1.GetInstance();
+            this.game = game;
             this.teno = teno;
             this.prevState = prevState;
             this.newState = newState;
@@ -45,7 +45,7 @@ namespace JumperJumper
             {
                 teno.position.Y -= (newRect.Height - prevRect.Height);
                 teno.state = newState;
-                game.gameState = new TenoGameState();
+                game.gameState = new TenoGameState(game);
             }
         }
 

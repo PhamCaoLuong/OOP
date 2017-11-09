@@ -29,12 +29,13 @@ namespace JumperJumper
         public Vector2 exitPosition { get; set; }
         public IAnimatedSprite exitPole { get; set; }
         public Vector2 checkpoint;
-
+        public string levelCurrent;
 
         public Level(Game1 game, string fileName)
         {
             this.game = game;
-            builder = new LevelBuilder(this);
+            levelCurrent = fileName;
+            builder = new LevelBuilder(this, game);
             teno = builder.Build(fileName);
             game.gameCamera = Game1.GetInstance().gameCamera;
             if(game.gameCamera != null)
@@ -80,12 +81,12 @@ namespace JumperJumper
             {
                 teno.position.X = 0;
             }
-            if(teno.position.X > exitPosition.X && !isVictory && !isUnderGround )
+            /*if(teno.position.X > exitPosition.X && !isVictory && !isUnderGround )
             {
                 game.gameState = new VictoryGameState();
                 exitPole = new GateSprite(Game1.gameContent.Load<Texture2D>("gateBroken"), 1, 1);
                 isVictory = true;
-            }
+            }*/
             game.gameCamera.LookAt(teno.position);
         }
 

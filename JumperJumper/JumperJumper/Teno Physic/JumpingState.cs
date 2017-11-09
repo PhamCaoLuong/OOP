@@ -16,9 +16,11 @@ namespace JumperJumper
         private double maxJumpVelocity = -1;
         private float positionXDtAdjust = 40;
         private float positionYDtAdjust = 17;
-
-        public JumpingState(Teno teno)
+        Game1 game;
+        public JumpingState(Teno teno, Game1 game)
         {
+            this.game = game;
+
             this.teno = teno;
             teno.isJumping = true;
         }
@@ -34,7 +36,7 @@ namespace JumperJumper
             }
             if (teno.velocity.Y > minJumpingVelocity || teno.tenoHight > maxJumpHeight)
             {
-                teno.physState = new FallingState(teno);
+                teno.physState = new FallingState(teno, game);
                 teno.tenoHight = 0;
             }
         }

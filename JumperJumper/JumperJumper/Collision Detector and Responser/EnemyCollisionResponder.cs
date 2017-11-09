@@ -39,9 +39,11 @@ namespace JumperJumper
 
             if(intersection != null)
             {
-                enemy1.position.Y += random.Next(-2, 2);
+                if(enemy1.GetType().Equals(new LeftSXTKState().GetType()) || enemy1.GetType().Equals(new RightSXTKState().GetType()))
+                    enemy1.position.Y += random.Next(-2, 2);
                 enemy1.position.X += random.Next(-2, 2);
-                enemy2.position.Y += random.Next(-2, 2);
+                if (enemy2.GetType().Equals(new RightSXTKState().GetType())|| enemy2.GetType().Equals(new RightSXTKState().GetType()))
+                    enemy2.position.Y += random.Next(-2, 2);
                 enemy2.position.X += random.Next(-2, 2);
             }
         }

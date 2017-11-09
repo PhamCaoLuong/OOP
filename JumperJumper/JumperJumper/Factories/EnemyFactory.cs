@@ -10,7 +10,7 @@ namespace JumperJumper
 {
     public class EnemyFactory
     {
-        public enum EnemyType { Dino, Koopa, Bill }
+        public enum EnemyType { GiaiTich, SXTK, OOP, PPT, Ly2, HoaDC }
         IEnemyState state;
 
         public EnemyFactory()
@@ -19,18 +19,27 @@ namespace JumperJumper
 
         public Enemy build(EnemyType type, Vector2 location)
         {
-            if (type == EnemyFactory.EnemyType.Dino)
+            if (type == EnemyFactory.EnemyType.GiaiTich)
             {
-                state = new LeftTallDinoState();
+                state = new LeftGiaiTichState();
             }
-            if (type == EnemyFactory.EnemyType.Koopa)
+            if (type == EnemyFactory.EnemyType.SXTK)
             {
-                state = new LeftWalkingShellessKS();
+                state = new LeftSXTKState();
             }
-            if (type == EnemyFactory.EnemyType.Bill)
+            if (type == EnemyFactory.EnemyType.PPT)
             {
-                state = new BanzaiBillState();
+                state = new LeftPPTState();
             }
+            if(type == EnemyFactory.EnemyType.OOP)
+            {
+                state = new BobOOPState();
+            }
+            if(type == EnemyType.Ly2)
+            {
+                state = new LeftLy2State();
+            }
+
             Enemy product = new Enemy(location, state);
             return product;
         }

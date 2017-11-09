@@ -79,7 +79,7 @@ namespace JumperJumper
             if (Time == 0 && !gameEnded)
             {
                 game.level.teno.state.MakeDeadTeno();
-                Game1.GetInstance().gameState = new DeadGameState(game.level.teno);
+                game.gameState = new DeadGameState(game.level.teno, game);
             }
         }
 

@@ -52,8 +52,8 @@ namespace JumperJumper
             level = new Level(this, StringHolder.levelOne);
             keyboardController = new KeyboardController(level.teno);
 
-            gameState = new TitleScreenGameState();
-            background = new BackgroundHolder();
+            gameState = new TitleScreenGameState(this);
+            background = new BackgroundHolder(this);
             ach = new AchievementsManager(this);
             base.Initialize();
         }

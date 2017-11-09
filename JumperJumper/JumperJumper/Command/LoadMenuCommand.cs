@@ -7,13 +7,15 @@ namespace JumperJumper
 {
     public class LoadMenuCommand : ICommands
     {
-        public LoadMenuCommand()
+        Game1 game;
+        public LoadMenuCommand(Game1 game)
         {
+            this.game = game;
         }
         public void Execute()
         {
-            Game1.GetInstance().gameState = new TitleScreenGameState();
-            Game1.GetInstance().isTitle = true;
+            game.gameState = new TitleScreenGameState(game);
+            game.isTitle = true;
         }
     }
 }

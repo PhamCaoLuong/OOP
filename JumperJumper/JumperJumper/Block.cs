@@ -56,7 +56,7 @@ namespace JumperJumper
 
         public void Explode()
         {
-            state = new ExplodingBlockState();
+            //state = new ExplodingBlockState();
             isExploding = true;
         }
 

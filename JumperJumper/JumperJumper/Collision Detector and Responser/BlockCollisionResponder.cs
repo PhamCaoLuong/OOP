@@ -53,16 +53,19 @@ namespace JumperJumper
                     if (!game.isVVVVVV)
                     {
                         block.Reaction();
-                        teno.physState = new FallingState(teno);
+                        teno.physState = new FallingState(teno, game);
                         teno.tenoHight = 0;
                         /*if (block.state.GetType().Equals(new BrickBlockState().GetType()) && mario.isBig)
                         {
                             block.Explode();
                         }*/
-                        if(block.state.GetType().Equals(new TrampolineBlockState().GetType()))
+                        if(block.state is TrampolineBlockState)
                         {
-                            //block.MakeTenoFly();
+                            teno.Jump();
                         }
+
+                        if (block.state is DamageBlockState)
+                            teno.MakeDeadTeno();
                     }
                     else
                         standingBlock.Add(block);
@@ -77,7 +80,11 @@ namespace JumperJumper
 
             if(intersection.Height > intersection.Width)
             {
-                if(eneRect.Right > blockRect.Left && eneRect.Right < blockRect.Right)
+                if(enemy.GetType().Equals(new LeftSXTKState().GetType()) || enemy.GetType().Equals(new RightSXTKState().GetType()))
+                {
+
+                }
+                else if (eneRect.Right > blockRect.Left && eneRect.Right < blockRect.Right)
                 {
                     enemy.position.X -= intersection.Width;
                     enemy.GoLeft();
@@ -90,7 +97,11 @@ namespace JumperJumper
             }
             else if(intersection.Height < intersection.Width)
             {
-                if(eneRect.Bottom > blockRect.Top && eneRect.Bottom < blockRect.Bottom)
+                if (enemy.GetType().Equals(new LeftSXTKState().GetType()) || enemy.GetType().Equals(new RightSXTKState().GetType()))
+                {
+
+                }
+                else if (eneRect.Bottom > blockRect.Top && eneRect.Bottom < blockRect.Bottom)
                 {
                     //enemy.veclocity.Y = 0;
                     if(intersection.Height > 1)

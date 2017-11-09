@@ -24,11 +24,13 @@ namespace JumperJumper
         public int tenoHight = 0;
         private SpriteFactory factory;
         private int modVal = 5;
+        Game1 game;
 
-        public Teno(Vector2 position)
+        public Teno(Vector2 position, Game1 game)
         {
-            state = new RightIdleTeno(this);
-            physState = new GroundState(this);
+            this.game = game;
+            state = new RightIdleTeno(this, game);
+            physState = new GroundState(this, game);
             this.position = position;
             factory = new SpriteFactory();
         }
@@ -37,7 +39,7 @@ namespace JumperJumper
         {
             if(velocity.Y > minVelocity.Y && !isFalling)
             {
-                physState = new JumpingState(this);
+                physState = new JumpingState(this, game);
                 velocity.Y -= ValueHolder.jumpingVelocity;
                 state.Up();
             }
@@ -87,16 +89,16 @@ namespace JumperJumper
 
         public void MakeVictoryTeno()
         {
-            state.Sprite = factory.build(SpriteFactory.sprites.victoryTeno);
+            //state.Sprite = factory.build(SpriteFactory.sprites.victoryTeno);
         }
 
 
         public void Respawn()
         {
-            state = new RightIdleTeno(this);
+            state = new RightIdleTeno(this, game);
             physState = new VVVVVVGroundState(this, 1);
             gravityDirection = 1;
-            position = Game1.GetInstance().level.checkpoint;
+            position = game.level.checkpoint;
         }
 
         public void Update(GameTime gametime)
@@ -116,11 +118,11 @@ namespace JumperJumper
         }
         public void MakeDeadTeno()
         {
-            //state.MakeDeadTeno();
+            state = new DeadTeno(this, game);
         }
         public void TransitionState(ITenoState prevState, ITenoState newState)
         {
-            Game1.GetInstance().gameState = new TrasitionGameState(this, prevState, newState);
+            game.gameState = new TrasitionGameState(this, prevState, newState);
         }
 
     }

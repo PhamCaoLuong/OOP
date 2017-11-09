@@ -21,8 +21,11 @@ namespace JumperJumper
         Teno teno;
         int spacingIncrement = 16; // khoảng các pixel
         Level level;
-        public LevelBuilder(Level level)
+        Game1 game;
+
+        public LevelBuilder(Level level, Game1 game)
         {
+            this.game = game;
             this.level = level;
             factory = new SpriteFactory();
             blockFactory = new BlockFactory();
@@ -74,7 +77,7 @@ namespace JumperJumper
                     int events = 1;
                     if(words[i] == "T")
                     {
-                        teno = new Teno(new Vector2(xCoord, yCoord));
+                        teno = new Teno(new Vector2(xCoord, yCoord), game);
                     }
                     if(itemDictionary.ContainsKey(words[i]))
                     {

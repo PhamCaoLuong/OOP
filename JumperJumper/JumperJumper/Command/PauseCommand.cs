@@ -7,19 +7,21 @@ namespace JumperJumper
 {
     public class PauseCommand : ICommands
     {
-        public PauseCommand()
+        Game1 game;
+        public PauseCommand(Game1 game)
         {
+            this.game = game;
         }
         public void Execute()
         {
-            if (Game1.GetInstance().isPaused)
+            if (game.isPaused)
             {
-                Game1.GetInstance().gameState = new TenoGameState();
-                Game1.GetInstance().isPaused = false;
+                game.gameState = new TenoGameState(game);
+                game.isPaused = false;
             }
             else
             {
-                Game1.GetInstance().gameState = new PauseGameState();
+                game.gameState = new PauseGameState(game);
             }
         }
     }

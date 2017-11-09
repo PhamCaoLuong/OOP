@@ -13,10 +13,10 @@ namespace JumperJumper
         IAnimatedSprite sprite;
         ISpriteFactory factory;
         int timereaction;
-        public TrampolineBlockState()
+        public TrampolineBlockState(SpriteFactory.sprites mushroom)
         {
             factory = new SpriteFactory();
-            sprite = factory.build(SpriteFactory.sprites.mushroom1);
+            sprite = factory.build(mushroom);
             timereaction = 15;
         }
 
@@ -32,12 +32,6 @@ namespace JumperJumper
 
         public void Reaction(Block block)
         {
-            sprite = factory.build(SpriteFactory.sprites.touchmushroom);
-            if (timereaction > 0)
-            {
-
-            }
-            sprite = factory.build(SpriteFactory.sprites.mushroom1);
         }
 
         public void Update(GameTime gametime, Block block)

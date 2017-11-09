@@ -17,7 +17,6 @@ namespace JumperJumper
         int animTimer = 0;
         public int UpdateSpeed { get; set; }
 
-
         public RightWalkingShellessKoopa(Texture2D texture, int rows, int columns)
         {
             Texture = texture;

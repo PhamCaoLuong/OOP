@@ -14,9 +14,11 @@ namespace JumperJumper
         private float positionDtAdjust = 40;
         int fallAnimTimer = 5;
         bool isFallingSprite = false;
+        Game1 game;
 
-        public FallingState(Teno teno)
+        public FallingState(Teno teno, Game1 game)
         {
+            this.game = game;
             this.teno = teno;
             teno.isFalling = true;
             teno.isJumping = false;
@@ -39,12 +41,12 @@ namespace JumperJumper
             if(Game1.GetInstance().level.collision.standingBlock.Count > 0 ||
                 Game1.GetInstance().level.collision.standingHouse.Count > 0)
             {
-                teno.physState = new GroundState(teno);
+                teno.physState = new GroundState(teno, game);
             }
             if (teno.position.Y > ValueHolder.fallingMarioBoundary)
             {
-                teno.state = new DeadTeno(teno);
-                Game1.GetInstance().ach.AchievementAdjustment(AchievementsManager.AchievementType.Death);
+                teno.state = new DeadTeno(teno,game);
+                game.ach.AchievementAdjustment(AchievementsManager.AchievementType.Death);
             }       
         }
         public void Run() { }

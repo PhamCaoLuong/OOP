@@ -15,11 +15,11 @@ namespace JumperJumper
         int pauseTimer = 30, upTimer = 30, downTimer = 180;
         int positionChange = 5;
 
-        public DeadGameState(Teno mario)
+        public DeadGameState(Teno mario, Game1 game)
         {
-            game = Game1.GetInstance();
+            this.game = game;
             this.teno = mario;
-            //SoundManager.StopMusic();
+            SoundManager.StopMusic();
             //SoundManager.death.Play();
             teno.isDead = true;
         }
@@ -48,7 +48,7 @@ namespace JumperJumper
                 }
                 else
                 {
-                    game.gameState = new GameOverState();
+                    game.gameState = new GameOverState(game);
                 }
             }
         }

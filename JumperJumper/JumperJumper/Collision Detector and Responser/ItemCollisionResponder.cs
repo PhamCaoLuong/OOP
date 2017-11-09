@@ -20,8 +20,8 @@ namespace JumperJumper
             if (item.GetType().Equals(new Coin(item.position).GetType()))
             {
                 //SoundManager.coinCollect.Play();
-                //game.gameHUD.Coins++;
-                //game.gameHUD.Score += ValueHolder.coinCollectPoints;
+                game.gameHUD.Coins++;
+                game.gameHUD.Score += ValueHolder.coinCollectPoints;
             }
         }
     }

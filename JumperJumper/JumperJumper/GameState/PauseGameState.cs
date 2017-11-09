@@ -13,9 +13,9 @@ namespace JumperJumper
         int inputBuffer = 10;
         Game1 game;
 
-        public PauseGameState()
+        public PauseGameState(Game1 game)
         {
-            game = Game1.GetInstance();
+            this.game = game;
             game.isPaused = true;
             game.keyboardController = new PauseMenuKeyController();
             //SoundManager.pause.Play();

@@ -7,12 +7,14 @@ namespace JumperJumper
 {
     public class LoadAchPageCommand : ICommands
     {
-        public LoadAchPageCommand()
+        Game1 game;
+        public LoadAchPageCommand(Game1 game)
         {
+            this.game = game;
         }
         public void Execute()
         {
-            Game1.GetInstance().gameState = new AchievementMenuGameState();
+            game.gameState = new AchievementMenuGameState(game);
         }
     }
 }

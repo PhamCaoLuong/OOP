@@ -8,17 +8,19 @@ namespace JumperJumper
 {
     public class GroundState :ITenoPhysicsState
     {
+        Game1 game;
         private Teno teno;
         private Vector2 speedDecayRate = new Vector2(0.76f, 0.70f);
         private float positionDtAdjust = 40;
         private float runMultiplier = 1.4f;
 
-        public GroundState(Teno teno)
+        public GroundState(Teno teno, Game1 game)
         {
+            this.game = game;
             teno.state.Land();
             teno.velocity.Y = 0;
             this.teno = teno;
-            //Game1.GetInstance().gameHUD.pointMultiplier = 1;
+            game.gameHUD.pointMultiplier = 1;
 
             teno.isJumping = false;
             teno.isFalling = false;
@@ -32,7 +34,7 @@ namespace JumperJumper
             if (Game1.GetInstance().level.collision.standingBlock.Count == 0 &&
                 Game1.GetInstance().level.collision.standingHouse.Count == 0)
             {
-                teno.physState = new FallingState(teno);
+                teno.physState = new FallingState(teno, game);
             } 
         }
         public void Run()

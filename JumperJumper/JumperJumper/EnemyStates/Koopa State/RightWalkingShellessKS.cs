@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace JumperJumper
 {
-    public class RightWalkingShellessKS : IEnemyState
+    /*public class RightWalkingShellessKS : IEnemyState
     {
         IAnimatedSprite sprite;
         
@@ -53,5 +53,5 @@ namespace JumperJumper
         {
             sprite.Draw(spriteBatch, location, Color.White);
         }
-    }
+    }*/
 }

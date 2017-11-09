@@ -7,7 +7,7 @@ using System.Text;
 
 namespace JumperJumper
 {
-    public class HouseBlockState : IBlockState
+    /*public class HouseBlockState : IBlockState
     {
         IAnimatedSprite sprite;
         ISpriteFactory factory;
@@ -35,6 +35,6 @@ namespace JumperJumper
         {
             //null
         }
-
-    }
+        
+    }*/
 }

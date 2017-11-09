@@ -8,20 +8,20 @@ namespace JumperJumper
     public class ResetSceneCommand : ICommands
     {
         Game1 game;
-        public ResetSceneCommand()
+        public ResetSceneCommand(Game1 game)
         {
-            this.game = Game1.GetInstance();
+            this.game = game;
         }
 
         public void Execute()
-        {
-            Game1.GetInstance().level = new Level(game, StringHolder.levelOne);
-            Game1.GetInstance().background.CurrentSprite = Game1.GetInstance().background.OverworldSprite;
-            Game1.GetInstance().gameState = new TitleScreenGameState();
-            Game1.GetInstance().isTitle = true;
-            Game1.GetInstance().gameHUD.Coins = 0;
-            Game1.GetInstance().gameHUD.Lives = ValueHolder.startingLives;
-            Game1.GetInstance().gameHUD.Score = 0;
+        {   
+            game.level = new Level(game, StringHolder.levelOne);
+            game.background.CurrentSprite = Game1.GetInstance().background.H1Sprite;
+            game.gameState = new TitleScreenGameState(game);
+            game.isTitle = true;
+            game.gameHUD.Coins = 0;
+            game.gameHUD.Lives = ValueHolder.startingLives;
+            game.gameHUD.Score = 0;
         }
     }
 }

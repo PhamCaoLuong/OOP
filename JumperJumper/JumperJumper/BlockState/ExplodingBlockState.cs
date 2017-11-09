@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 namespace JumperJumper
 {
-    public class ExplodingBlockState : IBlockState
+    /*public class ExplodingBlockState : IBlockState   // không cần
     {
         public IAnimatedSprite sprite;
         public ISpriteFactory factory;
@@ -36,5 +36,5 @@ namespace JumperJumper
         public void Reaction(Block block)
         {
         }
-    }
+    }*/
 }

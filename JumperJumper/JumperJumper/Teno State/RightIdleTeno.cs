@@ -10,10 +10,12 @@ namespace JumperJumper
 {
     class RightIdleTeno:ITenoState
     {
+        Game1 game;
         Teno teno;
         public IAnimatedSprite Sprite { get; set; }
-        public RightIdleTeno(Teno teno)
+        public RightIdleTeno(Teno teno, Game1 game)
         {
+            this.game = game;
             ISpriteFactory factory = new SpriteFactory();
             Sprite = factory.build(SpriteFactory.sprites.rightIdleTeno);
             this.teno = teno;
@@ -24,19 +26,19 @@ namespace JumperJumper
         }
         public void Up()
         {
-            teno.state = new RightJumpingTeno(teno);
+            teno.state = new RightJumpingTeno(teno, game);
         }
         public void Down()
         {
-            teno.state = new RightCrouchingTeno(teno);
+            teno.state = new RightCrouchingTeno(teno, game);
         }
         public void GoLeft()
         {
-            teno.state = new LeftMovingTeno(teno);
+            teno.state = new LeftMovingTeno(teno, game);
         }
         public void GoRight()
         {
-            teno.state = new RightMovingTeno(teno);
+            teno.state = new RightMovingTeno(teno, game);
         }
         public void Idle()
         {
@@ -55,7 +57,7 @@ namespace JumperJumper
         }
         public void MakeDeadTeno()
         {
-            teno.state = new DeadTeno(teno);
+            teno.state = new DeadTeno(teno, game);
         }
         public void Flip() { }
         public void Update(GameTime gameTime)

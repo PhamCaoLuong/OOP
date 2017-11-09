@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace JumperJumper
 {
-    public class DeadShellessKS : IEnemyState
+    /*public class DeadShellessKS : IEnemyState
     {
         IAnimatedSprite sprite;
         
@@ -46,5 +46,5 @@ namespace JumperJumper
         {
             sprite.Draw(spriteBatch, location, Color.White);
         }
-    }
+    }*/
 }

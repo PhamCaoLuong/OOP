@@ -24,13 +24,13 @@ namespace JumperJumper
         public ICollectable build(CollectableType type, Vector2 location)
         {
             factory = new SpriteFactory();
-            if (type == CollectableType.coin)
+            /*if (type == CollectableType.coin)
             {
                 product = new Coin(location);
-            }
+            }*/
             if (type == CollectableType.star)
             {
-                //product = new Star(location);
+                product = new Coin(location);
             }
             if (type == CollectableType.oneUp)
             {

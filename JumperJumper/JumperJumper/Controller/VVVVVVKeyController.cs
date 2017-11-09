@@ -18,9 +18,11 @@ namespace JumperJumper
         int flipPatience = 15;
         int flipBuffer = 0;
         ICommands flip;
+        Game1 game;
 
-        public VVVVVVKeyController(Teno mario)
+        public VVVVVVKeyController(Teno mario, Game1 game)
         {
+            this.game = game;
             flip = new FlipCommand(mario);
             this.mario = mario;
             commandLibrary = new Dictionary<Keys, ICommands>();
@@ -29,7 +31,7 @@ namespace JumperJumper
             commandLibrary.Add(Keys.A, currentCommand = new LeftCommand(mario));
             commandLibrary.Add(Keys.D, currentCommand = new RightCommand(mario));
             commandLibrary.Add(Keys.Q, currentCommand = new QuitCommand());
-            commandLibrary.Add(Keys.R, currentCommand = new ResetSceneCommand());
+            commandLibrary.Add(Keys.R, currentCommand = new ResetSceneCommand(game));
         }
 
         public void Update()

@@ -9,14 +9,16 @@ namespace JumperJumper
 {
     public class LeftFallingTeno : ITenoState
     {
+        Game1 game;
         Teno teno;
         public IAnimatedSprite Sprite { get; set; }
         ISpriteFactory factory;
         
-        public LeftFallingTeno(Teno teno)
+        public LeftFallingTeno(Teno teno, Game1 game)
         {
+            this.game = game;
             factory = new SpriteFactory();
-            Sprite = factory.build(SpriteFactory.sprites.leftFallingTeno);
+            Sprite = factory.build(SpriteFactory.sprites.leftJumpFallTeno);
             this.teno = teno;
         }
         public Rectangle GetBoundingBox(Vector2 location)
@@ -26,7 +28,7 @@ namespace JumperJumper
 
         public void TakeDamage()
         {
-            teno.TransitionState(teno.state, new LeftFallingTeno(teno));
+            teno.TransitionState(teno.state, new LeftFallingTeno(teno, game));
         }
         public void Up()
         {
@@ -39,14 +41,14 @@ namespace JumperJumper
         }
         public void GoRight()
         {
-            teno.state = new RightFallingTeno(teno);
+            teno.state = new RightFallingTeno(teno, game);
         }
         public void Idle()
         {
         }
         public void Land()
         {
-            teno.state = new LeftMovingTeno(teno);
+            teno.state = new LeftMovingTeno(teno, game);
         }
         public void Fall()
         {
@@ -68,7 +70,7 @@ namespace JumperJumper
 
         public void MakeDeadTeno()
         {
-            teno.state = new DeadTeno(teno);
+            teno.state = new DeadTeno(teno, game);
         }
     }
 }

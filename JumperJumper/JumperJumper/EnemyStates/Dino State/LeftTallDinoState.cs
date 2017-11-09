@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace JumperJumper
 {
-    public class LeftTallDinoState : IEnemyState
+    /*public class LeftTallDinoState : IEnemyState
     {
         IAnimatedSprite sprite;
         
@@ -51,5 +51,5 @@ namespace JumperJumper
         {
             sprite.Draw(spriteBatch, location, Color.White);
         }
-    }
+    }*/
 }

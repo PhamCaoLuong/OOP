@@ -16,11 +16,11 @@ namespace JumperJumper
         Texture2D level2;
         //Texture2D level3;
 
-        public AchievementMenuGameState()
+        public AchievementMenuGameState(Game1 game)
         {
-            game = Game1.GetInstance();
+            this.game = game;
             menu = new GUI(game);
-            menu.options.Add(new KeyValuePair<ICommands, String>(new LoadMenuCommand(), "Back"));
+            menu.options.Add(new KeyValuePair<ICommands, String>(new LoadMenuCommand(game), "Back"));
             menu.currentCommand = menu.options[0].Key;
             game.keyboardController = new TitleKeyController(menu);
             //level1 = Game1.gameContent.Load<Texture2D>("level1");

@@ -14,9 +14,9 @@ namespace JumperJumper
         Teno teno;
         int timer = 20;
 
-        public DeadFlipGameState(Teno teno)
+        public DeadFlipGameState(Teno teno, Game1 game)
         {
-            game = Game1.GetInstance();
+            this.game = game;
             this.teno = teno;
         }
 
@@ -26,7 +26,7 @@ namespace JumperJumper
             if (timer <= 0)
             {
                 teno.Respawn();
-                game.gameState = new VVVVVVGameState();
+                game.gameState = new VVVVVVGameState(game);
             }
         }
 

@@ -7,17 +7,24 @@ using System.Text;
 
 namespace JumperJumper
 {
-    class DeadTeno:ITenoState
+    class DeadTeno : ITenoState
     {
+        Game1 game;
         Teno teno;
         public IAnimatedSprite Sprite { get; set; }
 
-        public DeadTeno(Teno teno)
+        public DeadTeno(Teno teno, Game1 game)
         {
+            this.game = game;
             ISpriteFactory factory = new SpriteFactory();
-            Sprite = factory.build(SpriteFactory.sprites.deadTeno);
+            if(teno.state.GetType().Equals(new RightCrouchingTeno(teno, game).GetType()) || teno.state.GetType().Equals(new RightFallingTeno(teno, game).GetType())
+                || teno.state.GetType().Equals(new RightIdleTeno(teno, game).GetType()) || teno.state.GetType().Equals(new RightJumpingTeno(teno, game).GetType())
+                || teno.state.GetType().Equals(new RightMovingTeno(teno, game).GetType()))
+                Sprite = factory.build(SpriteFactory.sprites.rightDeadTeno);
+            else
+                Sprite = factory.build(SpriteFactory.sprites.leftDeadTeno);
             this.teno = teno;
-            Game1.GetInstance().gameState = new DeadGameState(teno);
+            game.gameState = new DeadGameState(teno, game);
         }
         public Rectangle GetBoundingBox(Vector2 location)
         {

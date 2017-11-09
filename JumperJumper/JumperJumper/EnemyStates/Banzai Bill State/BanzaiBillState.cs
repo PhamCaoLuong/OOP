@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Audio;
 
 namespace JumperJumper
 {
-    public class BanzaiBillState : IEnemyState
+   /* public class BanzaiBillState : IEnemyState
     {
         IAnimatedSprite sprite;
         ISpriteFactory factory;
@@ -64,6 +64,6 @@ namespace JumperJumper
             }
             sprite.Draw(spriteBatch, location, Color.White);
         }
-    }
+    }*/
 }
 

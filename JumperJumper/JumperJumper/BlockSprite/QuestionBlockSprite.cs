@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace JumperJumper
 {
-    public class QuestionBlockSprite : IAnimatedSprite
+    public class QuestionBlockSprite : IAnimatedSprite  // không cần
     {
         public Texture2D Texture { get; set; }
         public int Rows { get; set; }
