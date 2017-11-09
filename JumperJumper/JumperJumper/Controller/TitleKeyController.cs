@@ -11,13 +11,15 @@ namespace JumperJumper
     {
         private KeyboardState keyboardState;
 
+        Game1 game;
         ICommands currentCommand;
         Dictionary<Keys, ICommands> commandLibrary;
 
-        public TitleKeyController(GUI menu)
+        public TitleKeyController(GUI menu, Game1 game)
         {
+            this.game = game;
             commandLibrary = new Dictionary<Keys, ICommands>();
-            commandLibrary.Add(Keys.Q, currentCommand = new QuitCommand());
+            commandLibrary.Add(Keys.Q, currentCommand = new QuitCommand(game));
             commandLibrary.Add(Keys.S, new MenuDownCommand(menu));
             commandLibrary.Add(Keys.W, new MenuUpCommand(menu));
             commandLibrary.Add(Keys.Enter, new MenuSelectCommand(menu));
