@@ -9,7 +9,8 @@ using Microsoft.Xna.Framework.Graphics;
 namespace JumperJumper
 {
     public class GameOverState : IGameState
-    {        Game1 game;
+    {
+        Game1 game;
         SpriteFont font;
         int songTimer = 370;
 
@@ -25,7 +26,7 @@ namespace JumperJumper
             songTimer--;
             if (songTimer < 0)
             {
-                Game1.GetInstance().level = new Level(StringHolder.levelOne);
+                Game1.GetInstance().level = new Level(game, StringHolder.levelOne);
                 Game1.GetInstance().background.CurrentSprite = Game1.GetInstance().background.OverworldSprite;
                 Game1.GetInstance().gameState = new TitleScreenGameState();
                 Game1.GetInstance().isTitle = true;

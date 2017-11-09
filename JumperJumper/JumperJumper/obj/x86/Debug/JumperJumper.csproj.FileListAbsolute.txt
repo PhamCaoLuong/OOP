@@ -84,7 +84,6 @@ C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Co
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Fonts\PauseFont.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Fonts\ScoreFont.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Fonts\TimeFont.xnb
-C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\PauseFont.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achCoins.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achCoinsGrey.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Achievements\achFireball.xnb
@@ -111,3 +110,41 @@ C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Co
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Sprites\HUDCoinSprite.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Sprites\HUDMario.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\HUD Sprites\TimeSprite.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\1.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\13.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\14.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\15.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\16.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\2.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\3.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\4.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\5.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\7.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Bush (1).xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\bush1.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\bush2.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\bush3.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\cactus1.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\cactus2.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\cactus3.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\crate.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\gai.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Grass1.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Grass2.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Mushroom_1.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Mushroom_2.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\rsz_1rsz_sea.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\rsz_sea.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\sea.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Sign_1.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Sign_2.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Skeleton.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\stone1.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\stone2.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\stone3.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\stone4.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\stoneblock.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\tile.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Tree.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Tree_2.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Tree_3.xnb

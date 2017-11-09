@@ -49,7 +49,7 @@ namespace JumperJumper
             soundManager = new SoundManager(this);
             gameCamera = new Camera(GraphicsDevice.Viewport, this);
             gameHUD = new HUD(this);
-            level = new Level(StringHolder.levelOne);
+            level = new Level(this, StringHolder.levelOne);
             keyboardController = new KeyboardController(level.teno);
 
             gameState = new TitleScreenGameState();

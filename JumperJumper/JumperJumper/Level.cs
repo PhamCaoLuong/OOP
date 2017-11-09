@@ -31,9 +31,9 @@ namespace JumperJumper
         public Vector2 checkpoint;
 
 
-        public Level(string fileName)
+        public Level(Game1 game, string fileName)
         {
-            game = new Game1();
+            this.game = game;
             builder = new LevelBuilder(this);
             teno = builder.Build(fileName);
             game.gameCamera = Game1.GetInstance().gameCamera;

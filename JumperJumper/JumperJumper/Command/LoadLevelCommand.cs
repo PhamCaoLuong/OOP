@@ -7,6 +7,7 @@ namespace JumperJumper
 {
     public class LoadLevelCommand : ICommands
     {
+        Game1 game;
         String levelName;
         public LoadLevelCommand(String levelName)
         {
@@ -14,7 +15,7 @@ namespace JumperJumper
         }
         public void Execute()
         {
-            Game1.GetInstance().level = new Level(levelName);
+            Game1.GetInstance().level = new Level(game, levelName);
             if (levelName == StringHolder.levelOne)
             {
                 Game1.GetInstance().gameState = new TenoGameState();

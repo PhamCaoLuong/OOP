@@ -43,7 +43,7 @@ namespace JumperJumper
                 game.level.teno.MakeVictoryTeno();
                 if (walkTimer < -70)
                 {
-                    Game1.GetInstance().level = new Level(StringHolder.levelOne);
+                    Game1.GetInstance().level = new Level(game, StringHolder.levelOne);
                     Game1.GetInstance().background.CurrentSprite = Game1.GetInstance().background.OverworldSprite;
                     Game1.GetInstance().gameState = new TitleScreenGameState();
                     Game1.GetInstance().isTitle = true;

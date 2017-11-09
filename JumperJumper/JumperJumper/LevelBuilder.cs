@@ -35,7 +35,7 @@ namespace JumperJumper
             backgroundDictonary.Add("b1", SpriteFactory.sprites.bush1);
             backgroundDictonary.Add("G1", SpriteFactory.sprites.grass1);
             backgroundDictonary.Add("G2", SpriteFactory.sprites.grass2);
-            backgroundDictonary.Add("T", SpriteFactory.sprites.tree);
+            backgroundDictonary.Add("t", SpriteFactory.sprites.tree);
             backgroundDictonary.Add("ex", SpriteFactory.sprites.exit);
 
             // enemy
@@ -57,6 +57,7 @@ namespace JumperJumper
             blockDictionary.Add("ulb", BlockFactory.BlockType.undergroundLeftBottom);
             blockDictionary.Add("urb", BlockFactory.BlockType.undergroundRightBottom);
         }
+
         public Teno Build(string fileName)
         {
             float xCoord = 0, yCoord = 0;

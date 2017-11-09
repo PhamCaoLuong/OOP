@@ -39,7 +39,6 @@
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Fonts/PauseFont.spritefont</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Fonts/ScoreFont.spritefont</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Fonts/TimeFont.spritefont</File>
-    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/PauseFont.spritefont</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achCoins.png</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achCoinsGrey.png</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Achievements/achFireball.png</File>
@@ -65,5 +64,43 @@
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Sprites/HUDCoinSprite.png</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Sprites/HUDMario.png</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/HUD Sprites/TimeSprite.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/1.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/13.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/14.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/15.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/16.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/2.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/3.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/4.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/5.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/7.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Bush (1).png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/bush1.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/bush2.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/bush3.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/cactus1.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/cactus2.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/cactus3.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/crate.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/gai.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Grass1.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Grass2.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Mushroom_1.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Mushroom_2.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/rsz_1rsz_sea.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/rsz_sea.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/sea.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Sign_1.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Sign_2.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Skeleton.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/stone1.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/stone2.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/stone3.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/stone4.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/stoneblock.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/tile.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Tree.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Tree_2.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Tree_3.png</File>
   </SourceFiles>
 </SourceFileCollection>

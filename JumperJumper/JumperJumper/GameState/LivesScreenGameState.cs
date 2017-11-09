@@ -28,7 +28,7 @@ namespace JumperJumper
             timer--;
             if (timer <= 0)
             {
-                game.level = new Level(StringHolder.levelOne);
+                game.level = new Level(game, StringHolder.levelOne);
                 game.gameState = new TenoGameState();
                 //SoundManager.currentSong = SoundManager.songs.nullSong;
                 //SoundManager.PlaySong(SoundManager.songs.overworld);

@@ -2,7 +2,7 @@
 
 namespace JumperJumper
 {
-#if WINDOWS || LINUX
+#if WINDOWS
     /// <summary>
     /// The main class.
     /// </summary>

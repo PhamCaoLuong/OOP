@@ -7,13 +7,15 @@ namespace JumperJumper
 {
     public class ResetSceneCommand : ICommands
     {
+        Game1 game;
         public ResetSceneCommand()
         {
+            this.game = Game1.GetInstance();
         }
 
         public void Execute()
         {
-            Game1.GetInstance().level = new Level(StringHolder.levelOne);
+            Game1.GetInstance().level = new Level(game, StringHolder.levelOne);
             Game1.GetInstance().background.CurrentSprite = Game1.GetInstance().background.OverworldSprite;
             Game1.GetInstance().gameState = new TitleScreenGameState();
             Game1.GetInstance().isTitle = true;
