@@ -14,7 +14,7 @@ namespace JumperJumper
     {
         private Game1 game;
         private Viewport viewport;
-        public Vector2 CameraPosition = new Vector2(0, 125.0f);
+        public Vector2 CameraPosition = new Vector2(-200, 125.0f);
         public Vector2 CenterScreen { get; set; }
         public float Zoom { get; set; }
         public float Rotation { get; set; }
@@ -26,7 +26,7 @@ namespace JumperJumper
         {
             this.viewport = viewport;
             this.game = game;
-            Zoom = 2.0f;
+            Zoom = 1.0f;
             CenterScreen = new Vector2(viewport.Width / Zoom, viewport.Height / Zoom);
         }
 

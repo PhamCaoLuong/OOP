@@ -22,7 +22,7 @@ namespace JumperJumper
             commandLibrary.Add(Keys.Q, currentCommand = new QuitCommand(game));
             commandLibrary.Add(Keys.S, new MenuDownCommand(menu));
             commandLibrary.Add(Keys.W, new MenuUpCommand(menu));
-            commandLibrary.Add(Keys.Enter, new MenuSelectCommand(menu));
+            commandLibrary.Add(Keys.Enter, new LoadLevelCommand(game.level.levelCurrent, game));
         }
 
         public void Update()

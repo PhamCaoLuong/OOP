@@ -40,10 +40,20 @@ namespace JumperJumper
             if(velocity.Y > minVelocity.Y && !isFalling)
             {
                 physState = new JumpingState(this, game);
+                state = new RightJumpingTeno(game.level.teno, game);
                 velocity.Y -= ValueHolder.jumpingVelocity;
                 state.Up();
             }
         }
+
+        public void Fall()
+        {
+            physState = new FallingState(this, game);
+            state = new RightFallingTeno(game.level.teno, game);
+            velocity.Y += ValueHolder.jumpingVelocity;
+            state.Down();
+        }
+
         public void Crouch()
         {
             state.Down();
@@ -103,6 +113,8 @@ namespace JumperJumper
 
         public void Update(GameTime gametime)
         {
+            if(game.level.collision.standingBlock == null)
+                physState = new FallingState(this, game);
             state.Update(gametime);
             physState.Update(gametime);
         }

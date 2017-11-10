@@ -18,7 +18,7 @@ namespace JumperJumper
             this.game = game;
             game.gameHUD.Lives--;
             font = game.Content.Load<SpriteFont>(StringHolder.bigTextFont);
-            game.keyboardController = new PauseMenuKeyController(game);
+            game.keyboardController = new KeyboardController(game.level.teno, game);
             game.gameHUD.Time = ValueHolder.startingTime;
             game.gameHUD.textColor = ValueHolder.blackScreenText;
         }
@@ -30,8 +30,8 @@ namespace JumperJumper
             {
                 game.level = new Level(game, StringHolder.levelOne);
                 game.gameState = new TenoGameState(game);
-                //SoundManager.currentSong = SoundManager.songs.nullSong;
-                //SoundManager.PlaySong(SoundManager.songs.overworld);
+                SoundManager.currentSong = SoundManager.songs.nullSong;
+                SoundManager.PlaySong(SoundManager.songs.overworld);
                 game.gameHUD.textColor = ValueHolder.normalScreenText;
             }
             game.keyboardController.Update();
@@ -40,7 +40,7 @@ namespace JumperJumper
         public void Draw(SpriteBatch spriteBatch)
         {
             game.GraphicsDevice.Clear(Color.Black);
-            game.gameCamera.LookAt(game.gameCamera.CenterScreen);
+            game.gameCamera.LookAt( new Vector2(game.gameCamera.CenterScreen.X, game.gameCamera.CenterScreen.Y));
             spriteBatch.DrawString(font, StringHolder.livesText + game.gameHUD.Lives, game.gameCamera.CenterScreen +
                 ValueHolder.textPosition, Color.White);
         }

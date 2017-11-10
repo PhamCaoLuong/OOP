@@ -42,6 +42,7 @@ namespace JumperJumper
                 game.level.collision.standingHouse.Count > 0)
             {
                 teno.physState = new GroundState(teno, game);
+                game.level.collision.standingBlock.Clear();
             }
             if (teno.position.Y > ValueHolder.fallingMarioBoundary)
             {

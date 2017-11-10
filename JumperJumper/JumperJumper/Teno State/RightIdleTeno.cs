@@ -24,6 +24,10 @@ namespace JumperJumper
         {
             return Sprite.GetBoundingBox(location);
         }
+        public void TakeDamage()
+        {
+            MakeDeadTeno();
+        }
         public void Up()
         {
             teno.state = new RightJumpingTeno(teno, game);

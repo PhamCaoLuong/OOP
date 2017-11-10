@@ -82,10 +82,17 @@ namespace JumperJumper
 
             foreach (Block block in levelBlocks)
             {
-                Rectangle blockRect = block.GetBoundingBox();
-                if (tenoRect.Intersects(blockRect))
+                if(game.gameCamera.InCameraView(block.GetBoundingBox()))
                 {
-                    blockResponser.TenoBlockCollide(teno,block, detroyedBlock, standingBlock);
+                    Rectangle blockRect = block.GetBoundingBox();
+                    if (tenoRect.Intersects(blockRect))
+                    {
+                        blockResponser.TenoBlockCollide(teno, block, detroyedBlock, standingBlock);
+                    }
+                    else
+                    {
+                        standingBlock.Remove(block);
+                    }
                 }
             }
             foreach (ICollectable obtainedItem in ontainedItems)

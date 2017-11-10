@@ -45,7 +45,8 @@ namespace JumperJumper
                     {
                         teno.position.Y -= intersection.Height;
                     }
-                    standingBlock.Add(block);
+                    if(!standingBlock.Contains(block))
+                        standingBlock.Add(block);
                 }
                 else
                 {
@@ -59,7 +60,7 @@ namespace JumperJumper
                         {
                             block.Explode();
                         }*/
-                        if(block.state is TrampolineBlockState)
+                        if (block.state is TrampolineBlockState)
                         {
                             teno.Jump();
                         }
@@ -67,10 +68,11 @@ namespace JumperJumper
                         if (block.state is DamageBlockState)
                             teno.MakeDeadTeno();
                     }
-                    else
-                        standingBlock.Add(block);
+                    //else
+                        //standingBlock.Add(block);
                 }
             }
+ 
         }
         public void EnemyBlockCollide(Enemy enemy, Block block)
         {

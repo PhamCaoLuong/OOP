@@ -24,9 +24,13 @@ namespace JumperJumper
         {
             return Sprite.GetBoundingBox(location);
         }
-
+        public void TakeDamege()
+        {
+            MakeDeadTeno();
+        }
         public void Up()
         {
+
         }
         public void Down()
         {
@@ -34,7 +38,7 @@ namespace JumperJumper
         }
         public void GoLeft()
         {
-            teno.state = new RightJumpingTeno(teno, game);
+            teno.state = new LeftJumpingTeno(teno, game);
         }
         public void GoRight()
         {

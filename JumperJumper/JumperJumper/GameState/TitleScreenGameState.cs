@@ -11,7 +11,7 @@ namespace JumperJumper
     class TitleScreenGameState : IGameState
     {
         Game1 game;
-        int logoTimer = 10;
+        int logoTimer = 270;
         bool setLogo = false;
         SpriteFactory factory;
         IAnimatedSprite logo;

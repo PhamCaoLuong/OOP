@@ -21,6 +21,7 @@ namespace JumperJumper
             game.gameHUD.gameEnded = false;
             game.isVVVVVV = false;
             game.isVictory = false;
+            //game.gameState = new LivesScreenGameState(game);
         }
         public void Update(GameTime gameTime)
         {

@@ -25,17 +25,20 @@ namespace JumperJumper
             commandLibrabry.Add(Keys.D, currentCommand = new RightCommand(teno));
             commandLibrabry.Add(Keys.S, currentCommand = new DownCommand(teno));
             commandLibrabry.Add(Keys.Escape, currentCommand = new QuitCommand(game));
-            commandLibrabry.Add(Keys.Enter, currentCommand = new PauseCommand(game));
+            //commandLibrabry.Add(Keys.Enter, currentCommand = new PauseCommand(game));
         }
 
         public void Update()
         {
             currentCommand = new NullCommand();
             keyboardState = Keyboard.GetState();
-            foreach (Keys key in commandLibrabry.Keys)
+            foreach (Keys key in keyboardState.GetPressedKeys())
             {
-                currentCommand = commandLibrabry[key];
-                currentCommand.Execute();
+                if(commandLibrabry.ContainsKey(key))
+                {
+                    currentCommand = commandLibrabry[key];
+                    currentCommand.Execute();
+                }
             }
             teno.Idle();
         }

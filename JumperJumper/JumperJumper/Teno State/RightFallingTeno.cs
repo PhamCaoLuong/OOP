@@ -28,7 +28,7 @@ namespace JumperJumper
 
         public void TakeDamage()
         {
-            teno.TransitionState(teno.state, new RightFallingTeno(teno, game));
+            MakeDeadTeno();
         }
         public void Up()
         {

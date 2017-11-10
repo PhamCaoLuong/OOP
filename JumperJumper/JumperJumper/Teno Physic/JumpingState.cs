@@ -20,9 +20,9 @@ namespace JumperJumper
         public JumpingState(Teno teno, Game1 game)
         {
             this.game = game;
-
             this.teno = teno;
             teno.isJumping = true;
+            game.level.collision.standingBlock.Clear();
         }
 
         public void Update(GameTime gameTime)
