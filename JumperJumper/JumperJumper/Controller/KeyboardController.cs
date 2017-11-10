@@ -15,7 +15,7 @@ namespace JumperJumper
         ICommands currentCommand;
         Dictionary<Keys, ICommands> commandLibrabry;
 
-        public  KeyboardController(Teno teno)
+        public  KeyboardController(Teno teno, Game1 game)
         {
             this.teno = teno;
             commandLibrabry = new Dictionary<Keys, ICommands>();
@@ -24,8 +24,8 @@ namespace JumperJumper
             commandLibrabry.Add(Keys.A, currentCommand = new LeftCommand(teno));
             commandLibrabry.Add(Keys.D, currentCommand = new RightCommand(teno));
             commandLibrabry.Add(Keys.S, currentCommand = new DownCommand(teno));
-            commandLibrabry.Add(Keys.Escape, currentCommand = new QuitCommand());
-            commandLibrabry.Add(Keys.Enter, currentCommand = new PauseCommand());
+            commandLibrabry.Add(Keys.Escape, currentCommand = new QuitCommand(game));
+            commandLibrabry.Add(Keys.Enter, currentCommand = new PauseCommand(game));
         }
 
         public void Update()

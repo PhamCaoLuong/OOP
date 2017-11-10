@@ -44,7 +44,7 @@ namespace JumperJumper
             {
                 if (game.gameHUD.Lives > 0)
                 {
-                    game.gameState = new LivesScreenGameState();
+                    game.gameState = new LivesScreenGameState(game);
                 }
                 else
                 {

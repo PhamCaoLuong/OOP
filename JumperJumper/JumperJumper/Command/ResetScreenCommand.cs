@@ -16,7 +16,7 @@ namespace JumperJumper
         public void Execute()
         {   
             game.level = new Level(game, StringHolder.levelOne);
-            game.background.CurrentSprite = Game1.GetInstance().background.H1Sprite;
+            game.background.CurrentSprite = game.background.H1Sprite;
             game.gameState = new TitleScreenGameState(game);
             game.isTitle = true;
             game.gameHUD.Coins = 0;

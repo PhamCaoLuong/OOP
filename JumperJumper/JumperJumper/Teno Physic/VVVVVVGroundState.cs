@@ -13,9 +13,11 @@ namespace JumperJumper
         private float positionDtAdjust = 20;
         private int positionShift = 7;
         private int gravityStrength = 3;
+        Game1 game;
 
-        public VVVVVVGroundState(Teno teno, int sign)
+        public VVVVVVGroundState(Teno teno, int sign, Game1 game)
         {
+            this.game = game;
             this.teno = teno;
             gravityStrength*=sign;
         }
@@ -36,7 +38,7 @@ namespace JumperJumper
             teno.state.Flip();
             teno.gravityDirection = -teno.gravityDirection;
             teno.position.Y += positionShift*teno.gravityDirection;
-            teno.physState = new VVVVVVAirState(teno, teno.gravityDirection);
+            teno.physState = new VVVVVVAirState(teno, teno.gravityDirection, game);
         }
     }
 }

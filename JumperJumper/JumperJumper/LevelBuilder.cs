@@ -30,9 +30,9 @@ namespace JumperJumper
             factory = new SpriteFactory();
             blockFactory = new BlockFactory();
             enemyFactory = new EnemyFactory();
-            collectableFactory = new CollectableFactory();
+            collectableFactory = new CollectableFactory(game);
             // item là những gì thu lượm được
-            itemDictionary.Add("C", CollectableFactory.CollectableType.coin);
+            itemDictionary.Add("st", CollectableFactory.CollectableType.coin);
 
             // background là nhừng gì không ảnh hưởng tới cái khác
             backgroundDictonary.Add("b1", SpriteFactory.sprites.bush1);
@@ -42,6 +42,13 @@ namespace JumperJumper
             backgroundDictonary.Add("ex", SpriteFactory.sprites.exit);
 
             // enemy
+            enemyDictionary.Add("gt", EnemyFactory.EnemyType.GiaiTich);
+            enemyDictionary.Add("ly2", EnemyFactory.EnemyType.Ly2);
+            enemyDictionary.Add("OOP", EnemyFactory.EnemyType.OOP);
+            enemyDictionary.Add("SXTK", EnemyFactory.EnemyType.SXTK);
+            enemyDictionary.Add("PPT", EnemyFactory.EnemyType.PPT);
+            enemyDictionary.Add("HDC", EnemyFactory.EnemyType.HoaDC);
+
 
             // blockDictionary là những khối trong game như đá, cây, hộp
             blockDictionary.Add("G", BlockFactory.BlockType.gai);
@@ -57,8 +64,8 @@ namespace JumperJumper
             blockDictionary.Add("cr", BlockFactory.BlockType.crate);
             blockDictionary.Add("se", BlockFactory.BlockType.sea);
             blockDictionary.Add("g", BlockFactory.BlockType.ground);
-            blockDictionary.Add("ulb", BlockFactory.BlockType.undergroundLeftBottom);
-            blockDictionary.Add("urb", BlockFactory.BlockType.undergroundRightBottom);
+            //blockDictionary.Add("ulb", BlockFactory.BlockType.undergroundLeftBottom);
+            //blockDictionary.Add("urb", BlockFactory.BlockType.undergroundRightBottom);
         }
 
         public Teno Build(string fileName)

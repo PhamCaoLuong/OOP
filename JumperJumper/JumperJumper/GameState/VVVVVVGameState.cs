@@ -14,7 +14,7 @@ namespace JumperJumper
         public VVVVVVGameState(Game1 game)
         {
             this.game = game;
-            game.level.teno.physState = new VVVVVVGroundState(game.level.teno, 1);
+            game.level.teno.physState = new VVVVVVGroundState(game.level.teno, 1, game);
             game.keyboardController = new VVVVVVKeyController(game.level.teno, game);
             game.background.CurrentSprite = new NullSprite();
             game.gameHUD.PausedCheck = false;

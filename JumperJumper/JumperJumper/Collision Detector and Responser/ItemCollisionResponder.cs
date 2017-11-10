@@ -17,7 +17,7 @@ namespace JumperJumper
 
         public void TenoItemCollide(Teno teno, ICollectable item)
         {
-            if (item.GetType().Equals(new Coin(item.position).GetType()))
+            if (item.GetType().Equals(new Coin(item.position, game).GetType()))
             {
                 //SoundManager.coinCollect.Play();
                 game.gameHUD.Coins++;

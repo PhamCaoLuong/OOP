@@ -119,7 +119,6 @@
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/stone3.png</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/stone4.png</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/stoneblock.png</File>
-    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/tile.png</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Tree.png</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Tree1.png</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/Tree2.png</File>
@@ -141,5 +140,6 @@
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/background/H2Background.png</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/background/H3Background.png</File>
     <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/background/H6Background.png</File>
+    <File>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Item/ground.png</File>
   </SourceFiles>
 </SourceFileCollection>

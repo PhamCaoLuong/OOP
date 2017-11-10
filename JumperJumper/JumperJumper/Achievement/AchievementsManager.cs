@@ -17,12 +17,6 @@ namespace JumperJumper
 
         public enum AchievementType
         {
-            Life,
-            Enemy,
-            Coins,
-            Death,
-            Fireball,
-            Mushroom,
             Level1,
             Level2,
             Level3,

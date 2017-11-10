@@ -17,7 +17,7 @@ namespace JumperJumper
         {
             this.game = game;
             game.isPaused = true;
-            game.keyboardController = new PauseMenuKeyController();
+            game.keyboardController = new PauseMenuKeyController(game);
             //SoundManager.pause.Play();
             game.gameHUD.PausedCheck = true;
         }

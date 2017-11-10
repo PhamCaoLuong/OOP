@@ -12,10 +12,7 @@ namespace JumperJumper
     {
         public enum BlockType
         {
-            used, question, exclamation, brick, ground, leftEdge, rightEdge, quesMush, quesNinja,
-            quesCoin, ques1up, quesStar, quesFlower, undergroundRoof, undergroundFloor, undergroundLeftWall, undergroundRightWall,
-            undergroundLeftTop, undergroundRightTop, undergroundRightBottom, undergroundLeftBottom, brokenPipe,
-            gai, catus1, catus2, crate, stone1, stone2, stone3, stone4, stoneblock, mushroom1, mushroom2, sea,
+            gai, catus1, catus2, crate, stone1, stone2, stone3, stone4, stoneblock, mushroom1, mushroom2, sea, ground,
         }
         SpriteFactory factory;
         IBlockState state;
@@ -87,7 +84,6 @@ namespace JumperJumper
             {
                 state = new TrampolineBlockState(SpriteFactory.sprites.mushroom2);
             }
-
             Block product = new Block(location, prize, state);
             return product;
         }

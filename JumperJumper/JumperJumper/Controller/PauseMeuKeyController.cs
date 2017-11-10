@@ -16,11 +16,11 @@ namespace JumperJumper
         ICommands currentCommand;
         Dictionary<Keys, ICommands> commandLibrary;
 
-        public PauseMenuKeyController()
+        public PauseMenuKeyController(Game1 game)
         {
             commandLibrary = new Dictionary<Keys, ICommands>();
-            commandLibrary.Add(Keys.Enter, currentCommand = new PauseCommand());
-            commandLibrary.Add(Keys.Q, currentCommand = new QuitCommand());
+            commandLibrary.Add(Keys.Enter, currentCommand = new PauseCommand(game));
+            commandLibrary.Add(Keys.Q, currentCommand = new QuitCommand(game));
         }
 
         public void Update()

@@ -116,6 +116,7 @@
     <Compile Include="Controller\KeyboardController.cs" />
     <Compile Include="Controller\PauseMeuKeyController.cs" />
     <Compile Include="Controller\TitleKeyController.cs" />
+    <Compile Include="GameLogoSprite.cs" />
     <Compile Include="Teno State\DeadTeno.cs" />
     <Compile Include="BlockState\ExclaminationBlockState.cs" />
     <Compile Include="BlockState\ExplodingBlockState.cs" />

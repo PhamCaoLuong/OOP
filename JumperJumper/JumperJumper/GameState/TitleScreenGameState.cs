@@ -23,15 +23,15 @@ namespace JumperJumper
 
             factory = new SpriteFactory();
             logo = factory.build(SpriteFactory.sprites.title);
-            //SoundManager.PlaySong(SoundManager.songs.title);
+            SoundManager.PlaySong(SoundManager.songs.title);
             menu = new GUI(game);
             menu.options.Add(new KeyValuePair<ICommands, String>(new LoadLevelCommand(StringHolder.levelOne, game), "Level 1"));
             menu.options.Add(new KeyValuePair<ICommands, String>(new LoadLevelCommand(StringHolder.levelTwo, game), "Level 2"));
            // menu.options.Add(new KeyValuePair<ICommands, String>(new LoadLevelCommand(StringHolder.levelThree), "Level 3"));
             menu.options.Add(new KeyValuePair<ICommands, String>(new LoadAchPageCommand(game), "Achievements"));
-            menu.options.Add(new KeyValuePair<ICommands, String>(new QuitCommand(), "Quit"));
+            menu.options.Add(new KeyValuePair<ICommands, String>(new QuitCommand(game), "Quit"));
             menu.currentCommand = menu.options[0].Key;
-            game.keyboardController = new TitleKeyController(menu);
+            game.keyboardController = new TitleKeyController(menu, game);
         }
 
         public void Update(GameTime gameTime)

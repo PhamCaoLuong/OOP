@@ -13,12 +13,12 @@ namespace JumperJumper
         SpriteFont font;
         Game1 game;
 
-        public LivesScreenGameState()
+        public LivesScreenGameState(Game1 game)
         {
-            game = Game1.GetInstance();
+            this.game = game;
             game.gameHUD.Lives--;
             font = game.Content.Load<SpriteFont>(StringHolder.bigTextFont);
-            game.keyboardController = new PauseMenuKeyController();
+            game.keyboardController = new PauseMenuKeyController(game);
             game.gameHUD.Time = ValueHolder.startingTime;
             game.gameHUD.textColor = ValueHolder.blackScreenText;
         }
@@ -29,7 +29,7 @@ namespace JumperJumper
             if (timer <= 0)
             {
                 game.level = new Level(game, StringHolder.levelOne);
-                game.gameState = new TenoGameState();
+                game.gameState = new TenoGameState(game);
                 //SoundManager.currentSong = SoundManager.songs.nullSong;
                 //SoundManager.PlaySong(SoundManager.songs.overworld);
                 game.gameHUD.textColor = ValueHolder.normalScreenText;

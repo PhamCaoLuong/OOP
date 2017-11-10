@@ -20,7 +20,7 @@ namespace JumperJumper
             game.level = new Level(game, levelName);
             if (levelName == StringHolder.levelOne)
             {
-                game.gameState = new TenoGameState();
+                game.gameState = new TenoGameState(game);
                 SoundManager.PlaySong(SoundManager.songs.overworld);
             }
             if (levelName == StringHolder.levelTwo)

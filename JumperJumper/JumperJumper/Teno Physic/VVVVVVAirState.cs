@@ -27,7 +27,7 @@ namespace JumperJumper
             teno.position.Y += gravityStrength;
             if (game.level.collision.standingBlock.Count > 0)
             {
-                teno.physState = new VVVVVVGroundState(teno, teno.gravityDirection);
+                teno.physState = new VVVVVVGroundState(teno, teno.gravityDirection, game);
             }
         }
 

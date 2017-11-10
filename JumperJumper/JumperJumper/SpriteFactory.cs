@@ -268,7 +268,11 @@ namespace JumperJumper
                 Texture2D gai = Game1.gameContent.Load<Texture2D>("Item/Gai");
                 return new StaticSprite(gai);
             }
-
+            if (sprite == sprites.sea)
+            {
+                Texture2D sea = Game1.gameContent.Load<Texture2D>("Item/sea");
+                return new StaticSprite(sea);
+            }
             // Blocks
             if (sprite == sprites.stoneblock)
             {
@@ -294,6 +298,11 @@ namespace JumperJumper
             {
                 Texture2D stone4 = Game1.gameContent.Load<Texture2D>("Item/stone4");
                 return new StaticSprite(stone4);
+            }
+            if(sprite == sprites.ground)
+            {
+                Texture2D ground = Game1.gameContent.Load<Texture2D>("Item/ground");
+                return new StaticSprite(ground);
             }
 
             // tree
@@ -361,8 +370,13 @@ namespace JumperJumper
                 Texture2D exit = Game1.gameContent.Load<Texture2D>("Item/exit");
                 return new StaticSprite(exit);
             }
-            
 
+            // title
+            if (sprite == sprites.title)
+            {
+                Texture2D title = Game1.gameContent.Load<Texture2D>("logo");
+                return new GameLogoSprite(title);
+            }
             return product;
         }
     }

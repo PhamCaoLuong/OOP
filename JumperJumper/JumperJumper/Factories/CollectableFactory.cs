@@ -16,9 +16,11 @@ namespace JumperJumper
         }
         SpriteFactory factory;
         ICollectable product;
+        Game1 game;
 
-        public CollectableFactory()
+        public CollectableFactory(Game1 game)
         {
+            this.game = game;
         }
 
         public ICollectable build(CollectableType type, Vector2 location)
@@ -30,7 +32,7 @@ namespace JumperJumper
             }*/
             if (type == CollectableType.star)
             {
-                product = new Coin(location);
+                product = new Coin(location, game);
             }
             if (type == CollectableType.oneUp)
             {

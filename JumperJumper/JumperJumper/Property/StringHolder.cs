@@ -8,8 +8,8 @@ namespace JumperJumper
 {
     public class StringHolder
     {
-        public static String levelOne = @"C:\Users\user\Desktop\Git\OOP\JumperJumper\Content\Maps\Maplevel1.csv";
-        public static String levelTwo = @"C:\Users\user\Desktop\Git\OOP\JumperJumper\Content\Maps\Maplevel2.csv";
+        public static String levelOne = @"C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\Content\Maps\Maplevel1.csv";
+        public static String levelTwo = @"C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\Content\Maps\Maplevel2.csv";
         //public static String levelThree = "/Maps/MapOld.csv";
         public static String bigTextFont = "Fonts/SpriteFont1";
         public static String gameOverMessage = "Game Over";

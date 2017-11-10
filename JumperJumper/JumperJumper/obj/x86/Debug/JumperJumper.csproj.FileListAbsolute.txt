@@ -144,7 +144,6 @@ C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Co
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\stone3.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\stone4.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\stoneblock.xnb
-C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\tile.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Tree.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Tree_2.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\Tree_3.xnb
@@ -196,3 +195,4 @@ C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Co
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\background\H2Background.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\background\H3Background.xnb
 C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\background\H6Background.xnb
+C:\Users\user\Desktop\Git\OOP\JumperJumper\JumperJumper\bin\Windows\x86\Debug\Content\Item\ground.xnb

@@ -30,7 +30,7 @@ namespace JumperJumper
             commandLibrary.Add(Keys.S, currentCommand = new FlipCommand(mario));
             commandLibrary.Add(Keys.A, currentCommand = new LeftCommand(mario));
             commandLibrary.Add(Keys.D, currentCommand = new RightCommand(mario));
-            commandLibrary.Add(Keys.Q, currentCommand = new QuitCommand());
+            commandLibrary.Add(Keys.Q, currentCommand = new QuitCommand(game));
             commandLibrary.Add(Keys.R, currentCommand = new ResetSceneCommand(game));
         }
 

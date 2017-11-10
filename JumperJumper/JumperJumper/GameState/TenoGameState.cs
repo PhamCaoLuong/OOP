@@ -16,7 +16,7 @@ namespace JumperJumper
         public TenoGameState(Game1 game)
         {
             this.game = game;
-            game.keyboardController = new KeyboardController(game.level.teno);
+            game.keyboardController = new KeyboardController(game.level.teno, game);
             game.gameHUD.PausedCheck = false;
             game.gameHUD.gameEnded = false;
             game.isVVVVVV = false;

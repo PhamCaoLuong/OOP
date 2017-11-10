@@ -31,8 +31,8 @@ namespace JumperJumper
             teno.position += teno.velocity * ((float)gameTime.ElapsedGameTime.Milliseconds / positionDtAdjust);
 
             teno.velocity *= speedDecayRate;
-            if (Game1.GetInstance().level.collision.standingBlock.Count == 0 &&
-                Game1.GetInstance().level.collision.standingHouse.Count == 0)
+            if (game.level.collision.standingBlock.Count == 0 &&
+                game.level.collision.standingHouse.Count == 0)
             {
                 teno.physState = new FallingState(teno, game);
             } 

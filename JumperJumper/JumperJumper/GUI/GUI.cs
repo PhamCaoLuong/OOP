@@ -30,9 +30,9 @@ namespace JumperJumper
         {
             this.game = game;
             options = new List<KeyValuePair<ICommands, String>>();
-            //font = Game1.gameContent.Load<SpriteFont>("PauseFont");
+            font = Game1.gameContent.Load<SpriteFont>(StringHolder.hudPauseFont);
             factory = new SpriteFactory();
-            coin = factory.build(SpriteFactory.sprites.coin);
+            coin = factory.build(SpriteFactory.sprites.star);
         }
         public void Down()
         {

@@ -96,7 +96,7 @@ namespace JumperJumper
         public void Respawn()
         {
             state = new RightIdleTeno(this, game);
-            physState = new VVVVVVGroundState(this, 1);
+            physState = new VVVVVVGroundState(this, 1, game);
             gravityDirection = 1;
             position = game.level.checkpoint;
         }
@@ -122,7 +122,7 @@ namespace JumperJumper
         }
         public void TransitionState(ITenoState prevState, ITenoState newState)
         {
-            game.gameState = new TrasitionGameState(this, prevState, newState);
+            game.gameState = new TrasitionGameState(this, prevState, newState, game);
         }
 
     }

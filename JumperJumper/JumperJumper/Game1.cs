@@ -50,7 +50,7 @@ namespace JumperJumper
             gameCamera = new Camera(GraphicsDevice.Viewport, this);
             gameHUD = new HUD(this);
             level = new Level(this, StringHolder.levelOne);
-            keyboardController = new KeyboardController(level.teno);
+            keyboardController = new KeyboardController(level.teno, this);
 
             gameState = new TitleScreenGameState(this);
             background = new BackgroundHolder(this);

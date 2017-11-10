@@ -22,7 +22,7 @@ namespace JumperJumper
             menu = new GUI(game);
             menu.options.Add(new KeyValuePair<ICommands, String>(new LoadMenuCommand(game), "Back"));
             menu.currentCommand = menu.options[0].Key;
-            game.keyboardController = new TitleKeyController(menu);
+            game.keyboardController = new TitleKeyController(menu, game);
             //level1 = Game1.gameContent.Load<Texture2D>("level1");
             //level2 = Game1.gameContent.Load<Texture2D>("level2");
             //level3 = Game1.gameContent.Load<Texture2D>("level3");
