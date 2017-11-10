@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Teno/RightJumpFallTeno.png</SourceFile>
-  <SourceTime>2017-11-07T10:10:47.1391043+07:00</SourceTime>
+  <SourceTime>2017-11-10T12:13:18.3828314+07:00</SourceTime>
   <DestFile>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/bin/Windows/Teno/RightJumpFallTeno.xnb</DestFile>
-  <DestTime>2017-11-09T20:28:29.6082627+07:00</DestTime>
+  <DestTime>2017-11-10T12:17:08.7317326+07:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T13:36:08+07:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

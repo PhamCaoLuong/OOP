@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/Enemies/rightSXTK.png</SourceFile>
-  <SourceTime>2017-11-07T08:07:27.1305996+07:00</SourceTime>
+  <SourceTime>2017-11-10T11:32:50.1929498+07:00</SourceTime>
   <DestFile>C:/Users/user/Desktop/Git/OOP/JumperJumper/JumperJumper/Content/bin/Windows/Enemies/rightSXTK.xnb</DestFile>
-  <DestTime>2017-11-09T20:28:28.6503802+07:00</DestTime>
+  <DestTime>2017-11-10T12:17:07.1173629+07:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T13:36:08+07:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

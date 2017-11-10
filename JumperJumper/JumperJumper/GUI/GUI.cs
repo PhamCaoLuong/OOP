@@ -33,6 +33,8 @@ namespace JumperJumper
             font = Game1.gameContent.Load<SpriteFont>(StringHolder.hudPauseFont);
             factory = new SpriteFactory();
             coin = factory.build(SpriteFactory.sprites.star);
+
+            //options.AddRange(new LoadLevelCommand(game.level.levelCurrent, game), "Level 1");
         }
         public void Down()
         {
